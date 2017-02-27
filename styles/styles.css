@@ -2,11 +2,7 @@
 Color   Dark Red    Gold    Off-White
 Hex #   8B0000     FFCC33    EDEAB5
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oxygen|Nunito|Muli|Lato|Raleway|PT+Sans|Roboto+Slab|Hind|Open+Sans|Oswald");
-* {
-  margin: 0;
-  padding: 0; }
-
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Nunito|Muli|Lato|Raleway|PT+Sans|Roboto+Slab|Hind|Open+Sans|Amiko|Source+Sans+Pro");
 * {
   margin: 0;
   padding: 0;
@@ -22,7 +18,7 @@ Hex #   8B0000     FFCC33    EDEAB5
     position: fixed;
     background-color: #f9f9f9;
     min-width: 100%;
-    z-index: 1;
+    z-index: 10;
     height: 8vh;
     transition: all 0.7s; }
     .home-wrapper .navBar .logo {
@@ -31,7 +27,7 @@ Hex #   8B0000     FFCC33    EDEAB5
       letter-spacing: 2px;
       margin-left: 10%; }
       .home-wrapper .navBar .logo .red {
-        color: #903749; }
+        color: #8B0000; }
   .home-wrapper nav ul {
     margin-right: 3%;
     display: -webkit-flex;
@@ -69,31 +65,31 @@ Hex #   8B0000     FFCC33    EDEAB5
     justify-content: space-between; }
 
 .home-image .responsive-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("assets/home-image.jpg");
-  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../assets/home-image-3.jpg");
+  height: 92vh;
   max-width: 100%;
   position: relative;
-  background-size: 100% 100%; }
+  background-size: cover;
+  background-position: top; }
   .home-image .responsive-image .image-text {
-    position: relative;
+    position: absolute;
     color: white;
-    padding-top: 20%;
+    z-index: 1;
+    width: 100%;
+    top: 35%;
+    margin: 0 auto;
     font-family: 'Hind', sans-serif; }
     .home-image .responsive-image .image-text h1 {
       padding: 0;
       text-align: center;
-      font-size: 550%;
+      font-size: 7.5em;
       font-weight: 600;
       color: #FFFFFF;
       letter-spacing: 2.5px; }
-    .home-image .responsive-image .image-text p {
-      text-align: center;
-      font-size: 200%;
-      font-weight: 500; }
     .home-image .responsive-image .image-text h2 {
       letter-spacing: 1.5px;
       text-align: center;
-      font-size: 200%;
+      font-size: 120%;
       font-weight: 500; }
 
 /*              Three Pillars           */
@@ -102,26 +98,35 @@ Hex #   8B0000     FFCC33    EDEAB5
   padding-top: 8.5%;
   width: 100%; }
   .pillars-wrapper .pillars-header {
-    margin: 0 10%; }
-    .pillars-wrapper .pillars-header h1 {
+    margin: 0 10%;
+    text-align: center; }
+    .pillars-wrapper .pillars-header h2 {
+      display: inline-block;
+      font-size: 300%;
+      font-weight: 500;
+      font-family: 'PT Sans', sans-serif;
+      letter-spacing: 1.5px;
+      border-bottom: 3px solid #8B0000; }
+    .pillars-wrapper .pillars-header h3 {
+      padding-top: 3%;
       text-align: center;
-      font-size: 390%;
+      font-size: 225%;
       font-weight: 500;
       letter-spacing: 1.5px;
-      font-family: 'Open Sans Condensed', sans-serif; }
+      font-family: 'Raleway', sans-serif; }
     .pillars-wrapper .pillars-header p {
       text-align: center;
-      margin-top: 1.2%;
       font-family: 'Lato', sans-serif;
       font-size: 150%;
       font-weight: 500;
       padding-bottom: 2%; }
     .pillars-wrapper .pillars-header p#theta-tau-info {
       text-align: center;
+      margin: 0 25%;
       margin-top: 1.5%;
       font-family: 'Lato', sans-serif;
-      font-size: 150%;
-      padding-bottom: 7%; }
+      font-size: 92%;
+      font-weight: 500; }
   .pillars-wrapper .pillars-third-wrapper {
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -185,38 +190,44 @@ Hex #   8B0000     FFCC33    EDEAB5
         cursor: pointer; }
 
 /* Image with Rush */
-.image-rush {
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("assets/tabling.jpg");
-  background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("assets/tabling.jpg");
-  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url("assets/tabling.jpg");
-  height: 550px;
+.rush-info {
+  padding-bottom: 5%;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/tabling.jpg");
+  height: 375px;
   max-width: 100%;
   background-size: cover;
-  background-position: 50% 20%;
-  margin-bottom: 8%; }
-  .image-rush .rush-button {
+  background-position: 0% 20%;
+  margin-bottom: 0%; }
+  .rush-info .rush-button {
     margin: 0 20%;
-    position: relative;
+    position: absolute;
     text-align: center;
-    padding-top: 12%; }
-    .image-rush .rush-button p {
+    padding-top: 10%; }
+    .rush-info .rush-button p {
+      width: 100%;
       font-size: 300%;
       color: #FFFFFF;
-      padding-bottom: 5%;
-      font-family: 'Lato', sans-serif; }
-    .image-rush .rush-button a {
+      padding-bottom: 8%;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      font-family: 'Montserrat', sans-serif; }
+    .rush-info .rush-button a {
       text-decoration: none; }
-      .image-rush .rush-button a :hover {
+      .rush-info .rush-button a :hover {
         cursor: pointer;
         background-color: #8B0000;
-        color: #FFFFFF; }
-      .image-rush .rush-button a button {
-        background-color: transparent;
-        font-family: 'Roboto Slab', sans-serif;
-        padding: 15px 45px;
-        border: 2px solid white;
-        border-radius: 3px;
-        font-size: 175%;
+        color: #FFFFFF;
+        opacity: 0.8;
+        -webkit-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        transform: scale(1.03); }
+      .rush-info .rush-button a button {
+        background-color: #8B0000;
+        font-family: 'Lato', sans-serif;
+        padding: 10px 40px;
+        border: 0px solid #FFFFFF;
+        border-radius: 50px;
+        font-size: 155%;
         font-weight: 600;
         color: #FFFFFF;
         transition-duration: 0.4s;
@@ -224,17 +235,25 @@ Hex #   8B0000     FFCC33    EDEAB5
 
 /* Footer Area */
 .footer-wrapper {
-  background: #8B0000; }
+  background: #fafafa;
+  padding-top: 3.5%;
+  max-width: 100%; }
   .footer-wrapper .footer-info {
+    margin: 0 20%;
+    border-top: 2px solid #e5e5e5;
+    border-radius: 3px;
     padding-top: 2.5%;
     text-align: center;
-    color: white; }
+    color: black; }
     .footer-wrapper .footer-info h3 {
-      font-weight: 700;
-      font-size: 500%; }
+      font-weight: 500;
+      font-size: 100%;
+      font-family: 'Lato', sans-serif; }
     .footer-wrapper .footer-info p {
-      font-size: 170%;
-      padding-top: 1%; }
+      padding-top: 7px;
+      font-size: 95%;
+      letter-spacing: 0.5px;
+      font-family: 'Lato', sans-serif; }
     .footer-wrapper .footer-info ul {
       list-style: none;
       padding-top: 1%;
@@ -244,4 +263,12 @@ Hex #   8B0000     FFCC33    EDEAB5
         display: inline-block;
         padding: 2% 12px 2% 12px; }
         .footer-wrapper .footer-info ul li a i {
-          color: white; }
+          color: black; }
+  .footer-wrapper footer {
+    padding-bottom: 0.75%; }
+    .footer-wrapper footer p {
+      font-size: 75%;
+      color: #4c4c4c;
+      font-weight: 500;
+      text-align: center;
+      font-family: 'Nunito', sans-serif; }
