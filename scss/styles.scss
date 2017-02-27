@@ -3,19 +3,13 @@ Color   Dark Red    Gold    Off-White
 Hex #   8B0000     FFCC33    EDEAB5
 */
     
-    @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Oxygen|Nunito|Muli|Lato|Raleway|PT+Sans|Roboto+Slab|Hind|Open+Sans|Oswald');
-    * {
-      margin: 0;
-      padding: 0;
-    }
+    @import url('https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Nunito|Muli|Lato|Raleway|PT+Sans|Roboto+Slab|Hind|Open+Sans|Amiko|Source+Sans+Pro');
     
     $dark-red: #8B0000;
     $gold: #FFCC33;
     $off-white: #fafafa;
     $nav-color: #f9f9f9;
-    $color1: #E84545; //Red
-    $color2: #53354A; //Plum
-    $color3: #903749; //Maroon
+
     * {
       margin: 0;
       padding: 0;
@@ -36,13 +30,13 @@ Hex #   8B0000     FFCC33    EDEAB5
           letter-spacing: 2px;
           margin-left: 10%;
           .red {
-            color: $color3;
+            color: $dark-red;
           }
         }
         position: fixed;
         background-color: $nav-color;
         min-width: 100%;
-        z-index: 1;
+        z-index: 10;
         height: 8vh;
         transition: all 0.7s;
       }
@@ -82,36 +76,34 @@ Hex #   8B0000     FFCC33    EDEAB5
     
     .home-image {
       .responsive-image {
-        background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("assets/home-image.jpg");
-        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("assets/home-image-3.jpg");
+        height: 92vh;
         max-width: 100%;
         position: relative;
-        background-size: 100% 100%;
+        background-size: cover;
+        background-position: top;
 
         .image-text {
-          position: relative;
+          position: absolute;
           color: white;
-          padding-top: 20%;
+          z-index: 1;
+          width: 100%;
+          top: 35%;
+          margin: 0 auto;
           font-family: 'Hind', sans-serif;
           h1 {
             padding: 0;
             text-align: center;
-            font-size: 550%;
+            font-size: 7.5em;
             font-weight: 600;
             color: #FFFFFF;
             letter-spacing: 2.5px;
-          }
-          p {
-            text-align: center;
-            font-size: 200%;
-            font-weight: 500;
-            
           }
           h2 {
             letter-spacing: 1.5px;
 
             text-align: center;
-            font-size: 200%;
+            font-size: 120%;
             font-weight: 500;
             
           }
@@ -126,16 +118,26 @@ Hex #   8B0000     FFCC33    EDEAB5
       width: 100%;
       .pillars-header {
         margin: 0 10%;
-        h1 {
+        text-align: center;
+        h2 {
+          display: inline-block;
+          font-size: 300%;
+          font-weight: 500;
+          font-family: 'PT Sans', sans-serif;
+          letter-spacing: 1.5px;
+          border-bottom: 3px solid $dark-red;
+        }
+        h3 {
+          padding-top: 3%;
           text-align: center;
-          font-size: 390%;
+          font-size: 225%;
           font-weight: 500;
           letter-spacing: 1.5px;
-          font-family: 'Open Sans Condensed', sans-serif;
+          font-family: 'Raleway', sans-serif;
         }
         p {
           text-align: center;
-          margin-top: 1.2%;
+          
           font-family: 'Lato', sans-serif;
           font-size: 150%;
           font-weight: 500;
@@ -143,10 +145,12 @@ Hex #   8B0000     FFCC33    EDEAB5
         }
         p#theta-tau-info {
           text-align: center;
+          margin: 0 25%;
           margin-top: 1.5%;
           font-family: 'Lato', sans-serif;
-          font-size: 150%;
-          padding-bottom: 7%;
+          font-size: 92%;
+          font-weight: 500;
+          
         }
       }
       .pillars-third-wrapper {
@@ -218,25 +222,25 @@ Hex #   8B0000     FFCC33    EDEAB5
     }
     /* Image with Rush */
     
-    .image-rush {
-      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("assets/tabling.jpg");
-      background: -o-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),  url("assets/tabling.jpg");
-      background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),  url("assets/tabling.jpg");
-      height: 550px;
-      max-width: 100%;
-      background-size: cover;
-      background-position: 50% 20%;
-      margin-bottom: 8%;
+    .rush-info {
+      padding-bottom: 5%;
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("assets/tabling.jpg");
+  height: 375px;
+  max-width: 100%;
+  background-size: cover;
+  background-position: 0% 20%;
+  margin-bottom: 0%; 
       .rush-button {
-        margin: 0 20%;
-        position: relative;
+        margin: 0 12%;
+        position: absolute;
         text-align: center;
-        padding-top: 12%;
+        padding-top: 10%;
         p{
-            font-size: 300%;
+            width: 100%;
+            font-size: 350%;
             color: #FFFFFF;
-            padding-bottom: 5%;
-            font-family: 'Lato', sans-serif;
+            padding-bottom: 10%;
+            font-family: 'Montserrat', sans-serif;
         }
         a {
           text-decoration: none;
@@ -244,14 +248,18 @@ Hex #   8B0000     FFCC33    EDEAB5
             cursor: pointer;
             background-color: $dark-red;
             color: #FFFFFF;
+            opacity: 0.8;
+            -webkit-transform: scale(1.03);
+              -ms-transform: scale(1.03);
+              transform: scale(1.03);
           }
           button {
-            background-color: transparent;
-            font-family: 'Roboto Slab', sans-serif;
-            padding: 15px 45px;
-            border: 2px solid white;
-            border-radius: 3px;
-            font-size: 175%;
+            background-color: $dark-red;
+            font-family: 'Lato', sans-serif;
+            padding: 10px 40px;
+            border: 0px solid #FFFFFF;
+            border-radius: 50px;
+            font-size: 155%;
             font-weight: 600;
             color: #FFFFFF;
             transition-duration: 0.4s;
@@ -263,14 +271,18 @@ Hex #   8B0000     FFCC33    EDEAB5
     /* Footer Area */
     
     .footer-wrapper {
-      background: $dark-red;
+      background: $off-white;
+      padding-top: 3.5%;
+      max-width: 100%;
       .footer-info {
+        margin: 0 25%;
+        border-top: 3px solid #000000;
         padding-top: 2.5%;
         text-align: center;
-        color: white;
+        color: black;
         h3 {
           font-weight: 700;
-          font-size: 500%;
+          font-size: 450%;
         }
         p {
           font-size: 170%;
@@ -287,7 +299,7 @@ Hex #   8B0000     FFCC33    EDEAB5
             padding: 2% 12px 2% 12px;
             a {
               i {
-                color: white;
+                color: black;
               }
             }
           }
