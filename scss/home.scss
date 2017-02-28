@@ -1,0 +1,326 @@
+    /*   Theta Tau Colors
+Color   Dark Red    Gold    Off-White
+Hex #   8B0000     FFCC33    EDEAB5
+*/
+    
+    @import url('https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Nunito|Muli|Lato|Raleway|PT+Sans|Roboto+Slab|Hind|Open+Sans|Amiko|Source+Sans+Pro');
+    
+    $dark-red: #8B0000;
+    $gold: #FFCC33;
+    $off-white: #fafafa;
+    $nav-color: #f9f9f9;
+
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    
+    .wrapper {
+      margin: 0.5% auto;
+      width: 100%;
+    }
+    
+    .home-wrapper {
+      background-color: gray;
+      .navBar {
+        .logo {
+          font-family: 'Roboto', sans-serif;
+          font-size: 250%;
+          letter-spacing: 2px;
+          margin-left: 10%;
+          .red {
+            color: $dark-red;
+          }
+        }
+        position: fixed;
+        background-color: $nav-color;
+        min-width: 100%;
+        z-index: 10;
+        height: 8vh;
+        transition: all 0.7s;
+      }
+      nav {
+        ul {
+          margin-right: 3%;
+          display: flex;
+          justify-content: flex-end;
+          list-style-type: none;
+          width: 50%;
+          a {
+            padding: 0 5%;
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 1.5px;
+            font-size: 125%;
+            color: #000000;
+            text-decoration: none;
+            transition: all .5s ease;
+            :hover {
+              color: #8B0000;
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+            }
+          }
+        }
+        li {
+          display: inline-block;
+        }
+        .wrapper {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
+    
+    .home-image {
+      padding-top: 8vh;
+      .responsive-image {
+        background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../assets/home-image-3.jpg");
+        height: 86vh;
+        max-width: 100%;
+        position: relative;
+        background-size: cover;
+        background-position: top;
+
+        .image-text {
+          position: absolute;
+          color: white;
+          z-index: 1;
+          width: 100%;
+          top: 25%;
+          margin: 0 auto;
+         
+          h1 {
+             font-family: 'Montserrat', sans-serif;
+            padding: 0;
+            text-align: center;
+            font-size: 8em;
+            font-weight: 1000;
+            color: #000000;
+            letter-spacing: 3px;
+          }
+          h2 {
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 1.5px;
+            text-align: center;
+            font-size: 1.4em;
+            font-weight: 800;
+            color: #000000;
+          }
+        }
+      }
+    }
+    /*              Three Pillars           */
+    
+    .pillars-wrapper {
+      background-color: $off-white;
+      padding-top: 8.5%;
+      width: 100%;
+      .pillars-header {
+        margin: 0 10%;
+        text-align: center;
+        h2 {
+          display: inline-block;
+          font-size: 300%;
+          font-weight: 500;
+          font-family: 'PT Sans', sans-serif;
+          letter-spacing: 1.5px;
+          border-bottom: 3px solid $dark-red;
+        }
+        h3 {
+          padding-top: 3%;
+          text-align: center;
+          font-size: 225%;
+          font-weight: 500;
+          letter-spacing: 1.5px;
+          font-family: 'Raleway', sans-serif;
+        }
+        p {
+          text-align: center;
+          
+          font-family: 'Lato', sans-serif;
+          font-size: 150%;
+          font-weight: 500;
+          padding-bottom: 2%;
+        }
+        p#theta-tau-info {
+          text-align: center;
+          margin: 0 25%;
+          margin-top: 1.5%;
+          font-family: 'Source Sans Pro', sans-serif;
+          font-size: 100%;
+          font-weight: 500;
+          
+        }
+      }
+      .pillars-third-wrapper {
+        display: flex;
+        margin: 3.5% 3% 0 3%;
+        justify-content: space-between;
+        .pillars-third {
+          flex-basis: 33.3%;
+          text-align: center;
+          padding-bottom: 8%;
+          h3 {
+            letter-spacing: 1.25px;
+            font-weight: 500;
+            font-family: 'Oxygen', sans-serif;
+            font-size: 150%;
+            margin-top: 5%;
+            padding-bottom: 5%;
+          }
+          p {
+            font-family: 'Lato', sans-serif;
+          }
+        }
+      }
+    }
+    /* About us ---- Rush  -------- */
+    
+    .about-us-wrapper {
+      background-color: $off-white;
+      height: 100%;
+      display: relative;
+      .about-us-header {
+        margin: 0 20%;
+        background: $off-white;
+        p#slogan {
+          text-align: center;
+          font-size: 150%;
+          font-weight: 500;
+          font-family: 'Lato', sans-serif;
+          letter-spacing: 1px;
+          margin-bottom: 20%;
+        }
+      }
+      .rush-button {
+        margin: 0 20%;
+        text-align: center;
+        padding-top: 4%;
+        padding-bottom: 10%;
+        a {
+          text-decoration: none;
+          :hover {
+            cursor: pointer;
+            background-color: $dark-red;
+            color: #FFFFFF;
+          }
+          button {
+            font-family: 'Roboto Slab', sans-serif;
+            padding: 15px 40px;
+            border: 2px solid black;
+            border-radius: 5px;
+            font-size: 175%;
+            font-weight: 600;
+            color: black;
+            background-color: white;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    /* Image with Rush */
+    
+    .rush-info {
+      padding-bottom: 5%;
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/tabling.jpg");
+  height: 375px;
+  max-width: 100%;
+  background-size: cover;
+  background-position: 0% 20%;
+  margin-bottom: 0%; 
+      .rush-button {
+        margin: 0 15%;
+        position: absolute;
+        text-align: center;
+        padding-top: 10%;
+        p{
+            width: 100%;
+            font-size: 350%;
+            color: #FFFFFF;
+            padding-bottom: 8%;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            font-family: 'Montserrat', sans-serif;
+        }
+        a {
+          text-decoration: none;
+          :hover {
+            cursor: pointer;
+            background-color: $dark-red;
+            color: #FFFFFF;
+            opacity: 0.8;
+            -webkit-transform: scale(1.03);
+              -ms-transform: scale(1.03);
+              transform: scale(1.03);
+          }
+          button {
+            background-color: $dark-red;
+            font-family: 'Lato', sans-serif;
+            padding: 10px 40px;
+            border: 0px solid #FFFFFF;
+            border-radius: 50px;
+            font-size: 155%;
+            font-weight: 600;
+            color: #FFFFFF;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    /* Footer Area */
+    
+    .footer-wrapper {
+      background: $off-white;
+      padding-top: 3.5%;
+      max-width: 100%;
+      .footer-info {
+        margin: 0 20%;
+        border-top: 2px solid #e5e5e5;
+        border-radius: 3px;
+        padding-top: 2.5%;
+        text-align: center;
+        color: black;
+        h3 {
+          font-weight: 500;
+          font-size: 100%;
+          font-family: 'Lato', sans-serif;
+        }
+        p {
+          padding-top: 7px;
+          
+          font-size: 95%;
+          letter-spacing: 0.5px;
+          font-family: 'Lato', sans-serif;
+        }
+        ul {
+          list-style: none;
+          padding-top: 1%;
+          padding-bottom: 1%;
+          margin-left: 1.5%;
+          li {
+            display: inline-block;
+            padding: 2% 12px 2% 12px;
+            a {
+              i {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+      footer {
+        padding-bottom: 0.75%;
+        p {
+          font-size: 75%;
+          color: #4c4c4c;
+          font-weight: 500;
+          text-align: center;
+          font-family: 'Nunito', sans-serif;
+        }
+      }
+    }

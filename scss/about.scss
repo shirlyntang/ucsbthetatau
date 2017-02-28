@@ -1,0 +1,70 @@
+ @import url('https://fonts.googleapis.com/css?family=Montserrat|Oxygen|Nunito|Muli|Lato|Raleway|PT+Sans|Roboto+Slab|Hind|Open+Sans|Amiko|Source+Sans+Pro');
+    
+    $dark-red: #8B0000;
+    $gold: #FFCC33;
+    $off-white: #fafafa;
+    $nav-color: #f9f9f9;
+
+    * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    
+    .wrapper {
+      margin: 0.5% auto;
+      width: 100%;
+    }
+    
+    .home-wrapper {
+      background-color: gray;
+      .navBar {
+        .logo {
+          font-family: 'Roboto', sans-serif;
+          font-size: 250%;
+          letter-spacing: 2px;
+          margin-left: 10%;
+          .red {
+            color: $dark-red;
+          }
+        }
+        position: fixed;
+        background-color: $nav-color;
+        min-width: 100%;
+        z-index: 10;
+        height: 8vh;
+        transition: all 0.7s;
+      }
+      nav {
+        ul {
+          margin-right: 3%;
+          display: flex;
+          justify-content: flex-end;
+          list-style-type: none;
+          width: 50%;
+          a {
+            padding: 0 5%;
+            font-family: 'Nunito', sans-serif;
+            letter-spacing: 1.5px;
+            font-size: 125%;
+            color: #000000;
+            text-decoration: none;
+            transition: all .5s ease;
+            :hover {
+              color: #8B0000;
+              -webkit-transform: scale(1.05);
+              -ms-transform: scale(1.05);
+              transform: scale(1.05);
+            }
+          }
+        }
+        li {
+          display: inline-block;
+        }
+        .wrapper {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+        }
+      }
+    }
