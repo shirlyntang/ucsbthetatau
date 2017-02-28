@@ -161,7 +161,7 @@
         max-width: 100%;
         margin: 1.5% 20% 0 20%;
         padding: 0 2%;
-        border: 1px solid red;
+        border: 1px solid black;
         position: relative;
         
         h3{
@@ -216,7 +216,10 @@
         padding: 1% 0 1% 2%;
         margin: 0% 10%;
         margin-top: 1%;
-        border: 1px solid black;
+        border: 1px solid red;
+        p{
+          font: 100% 'Lato', sans-serif;
+        }
         .arrow {
           padding-right: 1%;
         }
@@ -242,11 +245,9 @@
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
     transition: all .2s ease-in;
-        background-color: $dark-red;        
+        border: 3px solid $dark-red;  
       }
     }
-
-    
 
 
 

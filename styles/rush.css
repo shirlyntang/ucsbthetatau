@@ -133,7 +133,7 @@
     max-width: 100%;
     margin: 1.5% 20% 0 20%;
     padding: 0 2%;
-    border: 1px solid red;
+    border: 1px solid black;
     position: relative; }
     .schedule-content .day-block h3 {
       padding-top: 1%;
@@ -170,7 +170,9 @@
   padding: 1% 0 1% 2%;
   margin: 0% 10%;
   margin-top: 1%;
-  border: 1px solid black; }
+  border: 1px solid red; }
+  .faqs-content .toggle-question p {
+    font: 100% 'Lato', sans-serif; }
   .faqs-content .toggle-question .arrow {
     padding-right: 1%; }
   .faqs-content .toggle-question .toggle-answer {
@@ -191,7 +193,7 @@
   -o-transition: all .2s ease-in;
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
-  background-color: #8B0000; }
+  border: 3px solid #8B0000; }
 
 /* Footer Area */
 .footer-wrapper {
