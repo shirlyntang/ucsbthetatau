@@ -158,6 +158,7 @@
   padding-top: 8%;
   background-color: #fafafa; }
   .faqs #faq-header {
+    padding-bottom: 2%;
     text-align: center; }
     .faqs #faq-header h3 {
       letter-spacing: 4px;
@@ -170,9 +171,17 @@
   padding: 1% 0 1% 2%;
   margin: 0% 10%;
   margin-top: 1%;
-  border: 1px solid red; }
+  border: 1.5px solid #969696;
+  -moz-transition: all .2s ease;
+  -o-transition: all .2s ease;
+  -webkit-transition: all .2s ease;
+  transition: all 0.8s ease; }
   .faqs-content .toggle-question p {
-    font: 100% 'Lato', sans-serif; }
+    font: 100% 'Lato', sans-serif;
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all 0.8s ease; }
   .faqs-content .toggle-question .arrow {
     padding-right: 1%; }
   .faqs-content .toggle-question .toggle-answer {
@@ -194,6 +203,14 @@
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
   border: 3px solid #8B0000; }
+  .faqs-content .faq-color p.header-question {
+    -moz-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all 0.8s ease;
+    color: #8B0000;
+    font-size: 110%;
+    font-weight: 700; }
 
 /* Footer Area */
 .footer-wrapper {
