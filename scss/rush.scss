@@ -159,7 +159,7 @@
       .day-block{
         height: 180px;
         max-width: 100%;
-        margin: 2% 20%;
+        margin: 1.5% 20% 0 20%;
         padding: 0 2%;
         border: 1px solid red;
         position: relative;
@@ -188,24 +188,66 @@
           }
         }
       }
-       #fri{
-          margin-bottom: 0;
-        }
+      //  #fri{
+      //     margin-bottom: 0;
+      //   }
     }
 
     // FAQs 
 
     .faqs{
       padding-top: 8%;
-      text-align: center;
+      
       background-color: $off-white;
       #faq-header{
-        display: inline-block;
+        text-align: center;
         h3{
-          font: 275% 'Raleway', sans-serif;
+          letter-spacing: 4px;
+        display: inline-block;          
+        font: 275% 'Raleway', sans-serif;
+        border-bottom: 3px solid #e1e1e1;
+        width: 25%;
         }
       }
     }
+
+    .faqs-content{
+      .toggle-question{
+        padding: 1% 0 1% 2%;
+        margin: 0% 10%;
+        margin-top: 1%;
+        border: 1px solid black;
+        .arrow {
+          padding-right: 1%;
+        }
+        .toggle-answer{
+          p{
+            padding-top: 1%;
+          }
+          height: 0px;
+            overflow: hidden;
+            transition: height 0.5s ease;
+            -moz-transition: height 0.5s ease;
+            -ms-transition: height 0.5s ease;
+            -o-transition: height 0.5s ease;
+            -webkit-transition: height 0.5s ease;
+          }
+          .displayed{
+            height: 75px;
+        }
+         
+      }
+      .faq-color{
+         -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+        background-color: $dark-red;        
+      }
+    }
+
+    
+
 
 
 

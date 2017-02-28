@@ -11,4 +11,27 @@ function fixNav() {
     }
 }
 
-window.addEventListener('scroll', fixNav);
+// window.addEventListener('scroll', fixNav);
+
+
+
+function displayFAQ(num){
+    console.log('hey');
+    const toggle = document.getElementsByClassName("toggle-answer")[num];
+    const faqColor = document.getElementsByClassName('toggle-question')[num];
+    // const toggle = document.querySelectorAll(".toggle-answer");
+    if(toggle.classList.contains('displayed')){
+        toggle.classList.remove('displayed');
+    }
+    else{
+        toggle.classList.add('displayed');
+    }
+    if(faqColor.classList.contains('faq-color')){
+        faqColor.classList.remove('faq-color');
+    }
+    else{
+         faqColor.classList.add('faq-color');
+
+    }
+
+}
