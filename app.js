@@ -11,7 +11,9 @@ function fixNav() {
     }
 }
 
-// window.addEventListener('scroll', fixNav);
+
+window.addEventListener('scroll', fixNav);
+
 
 
 
