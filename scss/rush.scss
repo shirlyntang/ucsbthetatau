@@ -68,3 +68,241 @@
         }
       }
     }
+
+    // flyer image
+    #content-flyer{
+      text-align: center;
+      padding-top: 8vh;
+      h2{
+        width: 50%;
+        display: inline-block;
+        border-bottom: 3px solid $dark-red;
+        font-family: 'Raleway', sans-serif;
+        font-size: 4em;
+        padding-top: 2%;
+        padding-bottom: 0.5%;
+      }
+    .flyer-img{
+      margin-top: 3%;
+      background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+  height: 500px;
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+    }
+    }
+
+    // Content Area
+
+    .content-nav{
+      background-color: $off-white;
+      padding-top: 3%;
+      ul{
+        text-align: center;
+        max-width: 100%;
+        width: 100%;
+        list-style-type: none;
+       
+        li{
+          padding: 0 5.5%;
+          display: inline-block;
+           a {
+          text-decoration: none;
+          :hover {
+            cursor: pointer;
+            background-color: $dark-red;
+            color: #FFFFFF;
+            opacity: 0.8;
+            -webkit-transform: scale(1.00);
+              -ms-transform: scale(1.00);
+              transform: scale(1.00);
+          }
+          button {
+            background-color: #e1e1e1;
+            font-family: 'Nunito', sans-serif;
+            padding: 15px 70px;
+            border: 0px solid #e1e1e1;
+            border-radius: 50px;
+            letter-spacing: 1.5px;
+            font-size: 110%;
+            font-weight: 600;
+            color: #000000;
+            transition-duration: 0.4s;
+            cursor: pointer;
+          }
+        }
+        }
+      }
+    }
+
+    //  Schedule 
+
+    .schedule-content{
+      width: 100%;
+      background-color: $off-white;
+      padding-top: 5%;
+      
+      #schedule-header{
+        text-align: center;
+      h2{
+        display: inline-block;
+        border-bottom: 4px solid #e5e5e5;
+        width: 50%;
+        margin: 3% 0;
+        padding-bottom: 0.5%;
+        font-size: 3em;
+        border-radius: 3px;
+        font-family: 'Raleway', sans-serif;
+      }
+      }
+     
+      .day-block{
+        height: 180px;
+        max-width: 100%;
+        margin: 1.5% 20% 0 20%;
+        padding: 0 2%;
+        border: 1px solid red;
+        position: relative;
+        
+        h3{
+          padding-top: 1%;
+          text-align: center;
+          font: 200% 'Muli', sans-serif;
+        }
+        h4{ 
+          font: 120% 'Open Sans', sans-serif;
+          text-align: center;
+        }
+        p{
+          padding-top: 1%;
+          font: 100% 'Lato', sans-serif;  
+          max-width: 100%;
+          width: 70%;
+        }
+        #date-location{
+          position: absolute;
+          bottom: 2.5%;
+          right: 3%;
+          p {
+          width: 100%;
+          }
+        }
+      }
+      //  #fri{
+      //     margin-bottom: 0;
+      //   }
+    }
+
+    // FAQs 
+
+    .faqs{
+      padding-top: 8%;
+      
+      background-color: $off-white;
+      #faq-header{
+        text-align: center;
+        h3{
+          letter-spacing: 4px;
+        display: inline-block;          
+        font: 275% 'Raleway', sans-serif;
+        border-bottom: 3px solid #e1e1e1;
+        width: 25%;
+        }
+      }
+    }
+
+    .faqs-content{
+      .toggle-question{
+        padding: 1% 0 1% 2%;
+        margin: 0% 10%;
+        margin-top: 1%;
+        border: 1px solid black;
+        .arrow {
+          padding-right: 1%;
+        }
+        .toggle-answer{
+          p{
+            padding-top: 1%;
+          }
+          height: 0px;
+            overflow: hidden;
+            transition: height 0.5s ease;
+            -moz-transition: height 0.5s ease;
+            -ms-transition: height 0.5s ease;
+            -o-transition: height 0.5s ease;
+            -webkit-transition: height 0.5s ease;
+          }
+          .displayed{
+            height: 75px;
+        }
+         
+      }
+      .faq-color{
+         -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+        background-color: $dark-red;        
+      }
+    }
+
+    
+
+
+
+
+
+
+
+     /* Footer Area */
+    
+    .footer-wrapper {
+      background: $off-white;
+      padding-top: 3.5%;
+      max-width: 100%;
+      .footer-info {
+        margin: 0 20%;
+        border-top: 2px solid #e5e5e5;
+        border-radius: 3px;
+        padding-top: 2.5%;
+        text-align: center;
+        color: black;
+        h3 {
+          font-weight: 500;
+          font-size: 100%;
+          font-family: 'Lato', sans-serif;
+        }
+        p {
+          padding-top: 7px;
+          
+          font-size: 95%;
+          letter-spacing: 0.5px;
+          font-family: 'Lato', sans-serif;
+        }
+        ul {
+          list-style: none;
+          padding-top: 1%;
+          padding-bottom: 1%;
+          margin-left: 1.5%;
+          li {
+            display: inline-block;
+            padding: 2% 12px 2% 12px;
+            a {
+              i {
+                color: black;
+              }
+            }
+          }
+        }
+      }
+      footer {
+        padding-bottom: 0.75%;
+        p {
+          font-size: 75%;
+          color: #4c4c4c;
+          font-weight: 500;
+          text-align: center;
+          font-family: 'Nunito', sans-serif;
+        }
+      }
+    }
