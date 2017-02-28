@@ -64,33 +64,37 @@ Hex #   8B0000     FFCC33    EDEAB5
     -ms-flex-pack: justify;
     justify-content: space-between; }
 
-.home-image .responsive-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.15)), url("../assets/home-image-3.jpg");
-  height: 92vh;
-  max-width: 100%;
-  position: relative;
-  background-size: cover;
-  background-position: top; }
-  .home-image .responsive-image .image-text {
-    position: absolute;
-    color: white;
-    z-index: 1;
-    width: 100%;
-    top: 35%;
-    margin: 0 auto;
-    font-family: 'Hind', sans-serif; }
-    .home-image .responsive-image .image-text h1 {
-      padding: 0;
-      text-align: center;
-      font-size: 7.5em;
-      font-weight: 600;
-      color: #FFFFFF;
-      letter-spacing: 2.5px; }
-    .home-image .responsive-image .image-text h2 {
-      letter-spacing: 1.5px;
-      text-align: center;
-      font-size: 120%;
-      font-weight: 500; }
+.home-image {
+  padding-top: 8vh; }
+  .home-image .responsive-image {
+    background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25)), url("../assets/home-image-3.jpg");
+    height: 86vh;
+    max-width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: top; }
+    .home-image .responsive-image .image-text {
+      position: absolute;
+      color: white;
+      z-index: 1;
+      width: 100%;
+      top: 25%;
+      margin: 0 auto; }
+      .home-image .responsive-image .image-text h1 {
+        font-family: 'Montserrat', sans-serif;
+        padding: 0;
+        text-align: center;
+        font-size: 8em;
+        font-weight: 1000;
+        color: #000000;
+        letter-spacing: 3px; }
+      .home-image .responsive-image .image-text h2 {
+        font-family: 'Nunito', sans-serif;
+        letter-spacing: 1.5px;
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: 800;
+        color: #000000; }
 
 /*              Three Pillars           */
 .pillars-wrapper {
@@ -124,8 +128,8 @@ Hex #   8B0000     FFCC33    EDEAB5
       text-align: center;
       margin: 0 25%;
       margin-top: 1.5%;
-      font-family: 'Lato', sans-serif;
-      font-size: 92%;
+      font-family: 'Source Sans Pro', sans-serif;
+      font-size: 100%;
       font-weight: 500; }
   .pillars-wrapper .pillars-third-wrapper {
     display: -webkit-flex;
@@ -142,8 +146,8 @@ Hex #   8B0000     FFCC33    EDEAB5
       text-align: center;
       padding-bottom: 8%; }
       .pillars-wrapper .pillars-third-wrapper .pillars-third h3 {
-        letter-spacing: 1.2px;
-        font-weight: 400;
+        letter-spacing: 1.25px;
+        font-weight: 500;
         font-family: 'Oxygen', sans-serif;
         font-size: 150%;
         margin-top: 5%;
@@ -192,20 +196,20 @@ Hex #   8B0000     FFCC33    EDEAB5
 /* Image with Rush */
 .rush-info {
   padding-bottom: 5%;
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/tabling.jpg");
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/tabling.jpg");
   height: 375px;
   max-width: 100%;
   background-size: cover;
   background-position: 0% 20%;
   margin-bottom: 0%; }
   .rush-info .rush-button {
-    margin: 0 20%;
+    margin: 0 15%;
     position: absolute;
     text-align: center;
     padding-top: 10%; }
     .rush-info .rush-button p {
       width: 100%;
-      font-size: 300%;
+      font-size: 350%;
       color: #FFFFFF;
       padding-bottom: 8%;
       font-weight: 700;
