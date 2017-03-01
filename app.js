@@ -11,7 +11,11 @@ function fixNav() {
     }
 }
 
+
 window.addEventListener('scroll', fixNav);
+
+
+
 
 function displayFAQ(num){
     console.log('hey');

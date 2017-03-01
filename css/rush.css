@@ -60,6 +60,7 @@
     -ms-flex-pack: justify;
     justify-content: space-between; }
 
+<<<<<<< HEAD
 #content-flyer {
   text-align: center;
   padding-top: 8vh; }
@@ -194,6 +195,14 @@
   -webkit-transition: all .2s ease-in;
   transition: all .2s ease-in;
   border: 3px solid #8B0000; }
+=======
+.content-nav {
+  padding-top: 5%; }
+  .content-nav ul {
+    list-style-type: none; }
+    .content-nav ul li {
+      display: inline-block; }
+>>>>>>> 8ef32a6f83d4c98b77acc415b299a972e0846cba
 
 /* Footer Area */
 .footer-wrapper {
