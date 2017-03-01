@@ -18,7 +18,7 @@
     
     .home-wrapper {
       background-color: gray;
-      .navBar {
+      .navBar { 
         .logo {
           font-family: 'Roboto', sans-serif;
           font-size: 250%;
@@ -41,7 +41,11 @@
           display: flex;
           justify-content: flex-end;
           list-style-type: none;
-          width: 50%;
+          overflow: hidden;
+          width: 60%;
+          .icon {
+              display: none;
+            }
           a {
             padding: 0 5%;
             font-family: 'Nunito', sans-serif;
@@ -50,6 +54,7 @@
             color: #000000;
             text-decoration: none;
             transition: all .5s ease;
+            
             :hover {
               color: #8B0000;
               -webkit-transform: scale(1.05);
@@ -58,15 +63,17 @@
             }
           }
         }
-        li {
-          display: inline-block;
-        }
         .wrapper {
           align-items: center;
           display: flex;
           justify-content: space-between;
         }
       }
+    }
+
+    // Blah
+    .blah{
+      padding-top: 8vh;
     }
 
 
@@ -124,3 +131,25 @@
       }
 
     }
+
+
+
+//  media queries
+@media screen and (max-width:768px) {
+  .home-wrapper{
+    .navBar{
+      nav{
+        ul{
+          .icon{
+          display: inline-block;
+          }
+          a{
+          display: none;
+          
+        }
+        }
+        
+      }
+    }
+  }
+}

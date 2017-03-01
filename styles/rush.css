@@ -33,7 +33,10 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
     list-style-type: none;
-    width: 50%; }
+    width: 50%;
+    overflow: hidden; }
+    .home-wrapper nav ul .icon {
+      display: none; }
     .home-wrapper nav ul a {
       padding: 0 5%;
       font-family: 'Nunito', sans-serif;
@@ -47,8 +50,6 @@
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
         transform: scale(1.05); }
-  .home-wrapper nav li {
-    display: inline-block; }
   .home-wrapper nav .wrapper {
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -74,6 +75,9 @@
   #content-flyer .flyer-img {
     margin-top: 3%;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
     height: 500px;
     max-width: 100%;
     background-size: cover;

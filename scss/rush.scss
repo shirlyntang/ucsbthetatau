@@ -42,6 +42,10 @@
           justify-content: flex-end;
           list-style-type: none;
           width: 50%;
+          overflow: hidden;
+          .icon {
+              display: none;
+            }
           a {
             padding: 0 5%;
             font-family: 'Nunito', sans-serif;
@@ -57,9 +61,6 @@
               transform: scale(1.05);
             }
           }
-        }
-        li {
-          display: inline-block;
         }
         .wrapper {
           align-items: center;
@@ -85,6 +86,9 @@
     .flyer-img{
       margin-top: 3%;
       background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+      background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+      background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
   height: 500px;
   max-width: 100%;
   background-size: cover;
@@ -329,3 +333,18 @@
 
     }
     
+
+
+    
+//  media queries
+@media screen and (max-width:680px) {
+  .home-wrapper{
+    .navBar{
+      nav{
+        ul{
+
+        }
+      }
+    }
+  }
+}

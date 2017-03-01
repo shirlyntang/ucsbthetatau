@@ -12,7 +12,7 @@
     }
     
     .wrapper {
-      margin: 0.5% auto;
+      margin: 0.5% 0;
       width: 100%;
     }
     
@@ -42,6 +42,10 @@
           justify-content: flex-end;
           list-style-type: none;
           width: 50%;
+          overflow: hidden;
+          .icon {
+              display: none;
+            }
           a {
             padding: 0 5%;
             font-family: 'Nunito', sans-serif;
@@ -57,9 +61,6 @@
               transform: scale(1.05);
             }
           }
-        }
-        li {
-          display: inline-block;
         }
         .wrapper {
           align-items: center;
@@ -126,3 +127,17 @@
     }
 
 
+
+
+//  media queries
+@media screen and (max-width:680px) {
+  .home-wrapper{
+    .navBar{
+      nav{
+        ul{
+
+        }
+      }
+    }
+  }
+}

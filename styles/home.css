@@ -37,7 +37,8 @@ Hex #   8B0000     FFCC33    EDEAB5
     -ms-flex-pack: end;
     justify-content: flex-end;
     list-style-type: none;
-    width: 50%; }
+    width: 50%;
+    overflow: hidden; }
     .home-wrapper nav ul a {
       padding: 0 5%;
       font-family: 'Nunito', sans-serif;
@@ -51,8 +52,6 @@ Hex #   8B0000     FFCC33    EDEAB5
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
         transform: scale(1.05); }
-  .home-wrapper nav li {
-    display: inline-block; }
   .home-wrapper nav .wrapper {
     -webkit-align-items: center;
     -ms-flex-align: center;

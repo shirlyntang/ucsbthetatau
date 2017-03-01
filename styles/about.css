@@ -33,7 +33,10 @@
     -ms-flex-pack: end;
     justify-content: flex-end;
     list-style-type: none;
-    width: 50%; }
+    overflow: hidden;
+    width: 60%; }
+    .home-wrapper nav ul .icon {
+      display: none; }
     .home-wrapper nav ul a {
       padding: 0 5%;
       font-family: 'Nunito', sans-serif;
@@ -47,8 +50,6 @@
         -webkit-transform: scale(1.05);
         -ms-transform: scale(1.05);
         transform: scale(1.05); }
-  .home-wrapper nav li {
-    display: inline-block; }
   .home-wrapper nav .wrapper {
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -59,6 +60,9 @@
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between; }
+
+.blah {
+  padding-top: 8vh; }
 
 /* Footer Area */
 .footer-wrapper {
@@ -99,3 +103,9 @@
       font-weight: 500;
       text-align: center;
       font-family: 'Nunito', sans-serif; }
+
+@media screen and (max-width: 768px) {
+  .home-wrapper .navBar nav ul .icon {
+    display: inline-block; }
+  .home-wrapper .navBar nav ul a {
+    display: none; } }
