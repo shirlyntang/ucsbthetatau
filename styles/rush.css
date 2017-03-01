@@ -170,18 +170,19 @@
 .faqs-content .toggle-question {
   padding: 1% 0 1% 2%;
   margin: 0% 10%;
-  margin-top: 1%;
+  margin-top: 1.5%;
   border: 1.5px solid #969696;
-  -moz-transition: all .2s ease;
-  -o-transition: all .2s ease;
-  -webkit-transition: all .2s ease;
+  -moz-transition: all .8s ease;
+  -o-transition: all .8s ease;
+  -webkit-transition: all .8s ease;
   transition: all 0.8s ease; }
   .faqs-content .toggle-question p {
     font: 100% 'Lato', sans-serif;
-    -moz-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    -webkit-transition: all .2s ease;
-    transition: all 0.8s ease; }
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -webkit-transition: all .8s ease;
+    transition: all 0.8s ease;
+    font-weight: 600; }
   .faqs-content .toggle-question .arrow {
     padding-right: 1%; }
   .faqs-content .toggle-question .toggle-answer {
@@ -204,9 +205,9 @@
   transition: all .2s ease-in;
   border: 3px solid #8B0000; }
   .faqs-content .faq-color p.header-question {
-    -moz-transition: all .2s ease;
-    -o-transition: all .2s ease;
-    -webkit-transition: all .2s ease;
+    -moz-transition: all .8s ease;
+    -o-transition: all .8s ease;
+    -webkit-transition: all .8s ease;
     transition: all 0.8s ease;
     color: #8B0000;
     font-size: 110%;
