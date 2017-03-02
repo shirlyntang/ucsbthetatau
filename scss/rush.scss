@@ -16,7 +16,7 @@
       width: 100%;
     }
     
-     // Nav
+      // Nav
     .navigation{
       height: 8vh;
       position: fixed;
@@ -39,18 +39,20 @@
         }
     nav {
       margin-right: 5%;
+      float: right;
   ul {
     // overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    //float: right;
     .icon {
       display: none;
     }
     li {
-      float: right;
+      float: left;
       position: relative;
-      vertical-align: middle;
+      // vertical-align: middle;
       a {
         font: 130% 'Lato', sans-serif;
         display: block;
@@ -63,9 +65,9 @@
           color: $dark-red;
         }
         &:not(:only-child):after {
-          padding-left: 4px;
-          
+          // padding-left: 4px;
         } 
+        
 
       } // Dropdown list
 
@@ -83,6 +85,10 @@
       li {
         float: none;
         min-width: 190px;
+        :hover{
+          background: $dark-red;
+          color: #FFF;
+        }
         a {
           padding: 15px;
           line-height: 20px;
@@ -365,34 +371,22 @@
 
     
 //  media queries
-@media screen and (max-width:680px) {
-  .home-wrapper{
-    .navBar{
-      nav{
-        ul{
-
-        }
-      }
-    }
-  }
-}
-
-
-
-//  media queries
 
 
 @media screen and (max-width:768px) {
     .navigation{
       .nav-container{
       nav{
+        float: none;
         ul.nav-list{
           li{
             display: none;
-            height: 0px;
+           
           }
           li.icon{
-          float: right;
+          position: absolute;
+          top: 0;
+          right: 0;
           display: inline-block;
           }
         }
@@ -407,16 +401,17 @@
   .navigation{
     .nav-container{
   nav{
+   float: none;
     // transition: all 300ms ease-in-out;
     ul.nav-list.responsive{
-      position: block;
+       position: fixed;
       width: 100vw;
       padding-top: 8vh;
       text-align: center;      
        li.icon
         {
           position: absolute;
-          right: 27.5px;
+          right: 0;
           top: 0;
           a{
             text-align: right;
@@ -430,12 +425,17 @@
         a{
       z-index: 100;
           &:not(:only-child):before {
-          // padding-left: 4px;
-          content: '+ ';
+          //  padding-right: 4px;
+           content: '▾';
         } 
-          background: wheat;
+        &:not(:only-child):after{
+            padding-left: 7px;
+            content: ' ';
+          }
+          background-color: #e4e3e0;
           display: block; 
           text-align: center;
+          
         }
      
      ul{
@@ -443,16 +443,33 @@
      }
      ul.nav-dropdown{
        position: relative;
-       display: none;  
-      li{
-       border-bottom: 1px solid black;
-        
-      }
+       display: none; 
+       top: 0; 
      }
       }
-      li.open{
+      li.open:not(.icon){
+        a{
+          &:not(:only-child):before {
+           content: '▴';
+        } 
+          &:not(:only-child):after{
+            padding-left: 10px;
+            content: ' ';
+          }
+          &:hover{
+            background: $dark-red;
+            color: white;
+          }
+        }
            &:hover > ul.nav-dropdown {
         display: block;
+        li{
+          a{
+          &:hover{
+            background: $dark-red;
+          }
+        }
+        }
       }
       }
     }
