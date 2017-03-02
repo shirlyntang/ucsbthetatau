@@ -11,65 +11,63 @@
       border: 0;
     }
     
-    .wrapper {
-      margin: 0.5% auto;
-      width: 100%;
+    // Nav
+    nav {
+      float: right;
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      float: left;
+      position: relative;
+      a {
+        display: block;
+        padding: 0 20px;
+        line-height: 70px;
+        background: $nav-color;
+        color: $dark-red;
+        text-decoration: none;
+        &:hover {
+          background: $gold;
+          color: purple;
+        }
+        &:not(:only-child):after {
+          padding-left: 4px;
+          // content: ' ▾';
+          
+        } 
+
+      } // Dropdown list
+
+      &:hover > ul {
+        display: block;
+      }
+
+      ul{
+      position: absolute;
+      display: none;
+      z-index: 1;
+      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15);
+        
+      li {
+        float: none;
+        min-width: 190px;
+        a {
+          padding: 15px;
+          line-height: 20px;
+        }
+        
+      }
+      }
+      
+      
+    }
+    }
     }
     
-    .home-wrapper {
-      background-color: gray;
-      .navBar { 
-        .logo {
-          font-family: 'Roboto', sans-serif;
-          font-size: 250%;
-          letter-spacing: 2px;
-          margin-left: 10%;
-          .red {
-            color: $dark-red;
-          }
-        }
-        position: fixed;
-        background-color: $nav-color;
-        min-width: 100%;
-        z-index: 10;
-        height: 8vh;
-        transition: all 0.7s;
-      }
-      nav {
-        ul {
-          margin-right: 3%;
-          display: flex;
-          justify-content: flex-end;
-          list-style-type: none;
-          overflow: hidden;
-          width: 60%;
-          .icon {
-              display: none;
-            }
-          a {
-            padding: 0 5%;
-            font-family: 'Nunito', sans-serif;
-            letter-spacing: 1.5px;
-            font-size: 125%;
-            color: #000000;
-            text-decoration: none;
-            transition: all .5s ease;
-            
-            :hover {
-              color: #8B0000;
-              -webkit-transform: scale(1.05);
-              -ms-transform: scale(1.05);
-              transform: scale(1.05);
-            }
-          }
-        }
-        .wrapper {
-          align-items: center;
-          display: flex;
-          justify-content: space-between;
-        }
-      }
-    }
+    
+    
 
     // Blah
     .blah{
@@ -135,6 +133,7 @@
 
 
 //  media queries
+
 @media screen and (max-width:768px) {
   .home-wrapper{
     .navBar{

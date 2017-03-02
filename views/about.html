@@ -12,22 +12,24 @@
 
 <body>
   <!-- Navigation Bar -->
-  <div class="home-wrapper">
-    <nav class="navBar">
-  <nav class="wrapper">
-    <div class="logo"> 
-    <h1> <span class="red"> ΘΤ </span></h1>
-    </div><!-- Logo -->
-    <ul>
-      <a href="home.html"><li>Home</li></a>
-      <a href="about.html"><li>About</li></a>
-      <a href="rush.html"><li>Rush</li></a>
-      <a href="members.html"><li>Brothers</li></a>
-      <a href="#" onclick="navResponsive()" class="icon"><li>☰</li></a>
-    </ul>
-  </nav>
+  <nav>
+  <div class="nav-mobile">
+    <a id="nav-toggle" href="#!"><span></span></a>
+  </div>
+  <ul class="nav-list">
+    <li><a href="#!">Home</a></li>
+    <li><a href="#!">About</a></li>
+    <li><a href="#!">Services</a>
+      <ul class="nav-dropdown">
+        <li><a href="#!">Web Design</a></li>
+        <li><a href="#!">Web Development</a></li>
+        <li><a href="#!">Graphic Design</a></li>
+      </ul>
+    </li>
+    <li><a href="#!">Pricing</a></li>
+    <li><a href="#!">Contact</a></li>
+  </ul>
 </nav>
-</div>
 <!-- Content --> 
  <div class="blah">
 <h1>hey</h1>
@@ -35,9 +37,9 @@
   <!--- Footer ---->
   <div class="footer-wrapper">
     <div class="footer-info">
-      <!--<img src="assets/shield.png"/>-->
+      
       <h3>  Copyright @ Theta Tau Colony - University of California, Santa Barbara</h3>
-      <!--<div class="social-media">-->
+   
         <p> Contact us at: thetatau@gmail.com</p> 
       <ul>
         <!--<li>

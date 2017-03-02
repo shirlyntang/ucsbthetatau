@@ -4,62 +4,40 @@
   padding: 0;
   border: 0; }
 
-.wrapper {
-  margin: 0.5% auto;
-  width: 100%; }
-
-.home-wrapper {
-  background-color: gray; }
-  .home-wrapper .navBar {
-    position: fixed;
-    background-color: #f9f9f9;
-    min-width: 100%;
-    z-index: 10;
-    height: 8vh;
-    transition: all 0.7s; }
-    .home-wrapper .navBar .logo {
-      font-family: 'Roboto', sans-serif;
-      font-size: 250%;
-      letter-spacing: 2px;
-      margin-left: 10%; }
-      .home-wrapper .navBar .logo .red {
-        color: #8B0000; }
-  .home-wrapper nav ul {
-    margin-right: 3%;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: flex-end;
-    -ms-flex-pack: end;
-    justify-content: flex-end;
+nav {
+  float: right; }
+  nav ul {
     list-style-type: none;
-    overflow: hidden;
-    width: 60%; }
-    .home-wrapper nav ul .icon {
-      display: none; }
-    .home-wrapper nav ul a {
-      padding: 0 5%;
-      font-family: 'Nunito', sans-serif;
-      letter-spacing: 1.5px;
-      font-size: 125%;
-      color: #000000;
-      text-decoration: none;
-      transition: all .5s ease; }
-      .home-wrapper nav ul a :hover {
+    margin: 0;
+    padding: 0; }
+    nav ul li {
+      float: left;
+      position: relative; }
+      nav ul li a {
+        display: block;
+        padding: 0 20px;
+        line-height: 70px;
+        background: #f9f9f9;
         color: #8B0000;
-        -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-        transform: scale(1.05); }
-  .home-wrapper nav .wrapper {
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
+        text-decoration: none; }
+        nav ul li a:hover {
+          background: #FFCC33;
+          color: purple; }
+        nav ul li a:not(:only-child):after {
+          padding-left: 4px; }
+      nav ul li:hover > ul {
+        display: block; }
+      nav ul li ul {
+        position: absolute;
+        display: none;
+        z-index: 1;
+        box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15); }
+        nav ul li ul li {
+          float: none;
+          min-width: 190px; }
+          nav ul li ul li a {
+            padding: 15px;
+            line-height: 20px; }
 
 .blah {
   padding-top: 8vh; }
