@@ -1,5 +1,5 @@
-const nav = document.getElementById('main');
-const topofNav = nav.offsetHeight;
+// const nav = document.getElementById('main');
+// const topofNav = nav.offsetHeight;
 
 function fixNav() {
     if (window.scrollY >= topofNav) {
@@ -37,3 +37,24 @@ function displayFAQ(num){
     }
 
 }
+
+
+function navDropDown(){
+    const navList = document.getElementsByClassName("nav-list")[0];
+    if(navList.classList.contains('responsive')){
+        navList.classList.remove('responsive');
+    }
+    else{
+        navList.classList.add('responsive');
+    }
+
+}
+
+const dropDowns = document.querySelectorAll("li:not(:only-child)");
+console.log(dropDowns);
+function toggleMobileNav (){
+    console.log('hey');
+    this.classList.toggle('open');
+}
+
+dropDowns.forEach(dropDown => dropDown.addEventListener('click', toggleMobileNav));
