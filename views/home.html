@@ -11,22 +11,36 @@
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <div class="home-wrapper">
-    <nav class="navBar">
-  <nav class="wrapper">
-    <div class="logo"> 
-    <h1> <span class="red"> ΘΤ </span></h1>
-    </div><!-- Logo -->
-    <ul>
-      <a href="home.html"><li>Home</li></a>
-      <a href="about.html"><li>About</li></a>
-      <a href="rush.html"><li>Rush</li></a>
-      <a href="members.html"><li>Brothers</li></a>
-    </ul>
-  </nav>
+   <!-- Navigation Bar -->
+  <section class="navigation">
+  <div class="nav-container">
+    <div class="brand"> 
+      <a href="#">ΘΤ</a>
+    </div>
+  <nav>
+  <ul class="nav-list">
+    </li>
+    <li><a href="home.html">Home</a>
+    <li><a href="#">About</a>
+      <ul class="nav-dropdown">
+        <li><a href="#">History</a></li>
+        <li><a href="#!">Brotherhood</a></li>
+        <li><a href="#!">Professional Development</a></li>
+        <li><a href="#!">Service</a></li>
+      </ul></li>
+    <li><a href="#">Members</a>
+     <ul class="nav-dropdown">
+        <li><a href="members.html">Current Brothers</a></li>
+        <li><a href="#!">Exec Board</a></li>
+      </ul></li>
+    <li><a href="rush.html">Rush</a></li>
+    <li class="icon">
+    <a href="javascript:void(0);" onclick="navDropDown()">☰</a>
+    </li>
+  </ul>
 </nav>
 </div>
+</section>
     <!-- Image in Home Page -->
     <div class="home-image">
       <div class="responsive-image">
@@ -107,7 +121,7 @@
   </div>
   <!--- JQuery ------>
   <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
+  <script src="../app.js"></script>
 </body>
 
 </html>
