@@ -1,22 +1,19 @@
-let express = require('express'),
-    path = require('path');
+let express = require('express')
 var app = express();
-let server = require('http').Server(app);
+// let server = require('http').Server(app);
+
+//set port
 var port = process.env.PORT || 8000
 
-app.use(express.static(path.join(__dirname)));
+app.use(express.static(__dirname + "/views"));
 
 app.get('/', function(req, res, next){
-    res.sendStatus(200);
-});
-
-app.get('views/home.html', function(req, res,next){
-    res.sendFile(path.join(__dirname+"views/home.html"));
+    res.render("home");
 });
 
 //app.post('/contact', function(req, res, next){
 
-});
+//});
 server.listen(port, function() {
     console.log("App is running on port " + port);
 });
