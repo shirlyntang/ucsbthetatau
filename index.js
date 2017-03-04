@@ -14,6 +14,6 @@ app.get('/', function(req, res, next){
 //app.post('/contact', function(req, res, next){
 
 //});
-server.listen(port, function() {
+app.listen(port, function() {
     console.log("App is running on port " + port);
 });
