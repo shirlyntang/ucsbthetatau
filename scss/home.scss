@@ -20,20 +20,21 @@ Hex #   8B0000     FFCC33    EDEAB5
     .navigation{
       height: 8vh;
       position: fixed;
-      background-color: $off-white;
+      background-color: $nav-color;
         width: 100%;
         z-index: 10;
       .nav-container{
         // margin: 0 auto;
         .brand{
           position: absolute;
-          margin-left: 12%;
+          top: 23px;
+          margin-left: 3.5%;
           a{
-          line-height: 10px;
+          line-height: 20px;
           font-weight: 1200;
-          color: $dark-red;
-          font: 350% 'Roboto', sans-serif;
-          letter-spacing: 2px;
+          color: #000000;
+          font: 105% 'Lato', sans-serif;
+          letter-spacing: 3px;
             text-decoration: none;
           }
         }
@@ -41,32 +42,26 @@ Hex #   8B0000     FFCC33    EDEAB5
       margin-right: 5%;
       float: right;
   ul {
-    // overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
-    //float: right;
     .icon {
       display: none;
     }
     li {
       float: left;
       position: relative;
-      // vertical-align: middle;
       a {
-        font: 130% 'Lato', sans-serif;
+        font: 105% 'Lato', sans-serif;
         display: block;
         padding: 0 20px;
-        line-height: 70px;
+        line-height: 8vh;
         color: #000000;
         text-decoration: none;
         &:hover {
-          // background: $dark-red;
+          cursor: pointer;
           color: $dark-red;
         }
-        &:not(:only-child):after {
-          // padding-left: 4px;
-        } 
         
 
       } // Dropdown list
@@ -126,16 +121,16 @@ Hex #   8B0000     FFCC33    EDEAB5
              font-family: 'Montserrat', sans-serif;
             padding: 0;
             text-align: center;
-            font-size: 8em;
-            font-weight: 1000;
+            font-size: 6.5em;
+            font-weight: 900;
             color: #000000;
-            letter-spacing: 3px;
+            letter-spacing: 3.5px;
           }
           h2 {
-            font-family: 'Nunito', sans-serif;
-            letter-spacing: 1.5px;
+            font-family: 'Lato', sans-serif;
+            letter-spacing: 2px;
             text-align: center;
-            font-size: 1.4em;
+            font-size: 1.2em;
             font-weight: 800;
             color: #000000;
           }
