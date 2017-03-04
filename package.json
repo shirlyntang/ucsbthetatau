@@ -2,9 +2,15 @@
   "name": "ucsbthetatau",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "engines": {
+    "node": "6.9.5"
+  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  }, 
+   "dependencies": {
+    "express": "^4.15.0"
   },
   "repository": {
     "type": "git",
@@ -15,5 +21,6 @@
   "bugs": {
     "url": "https://github.com/christiannguyen/ucsbthetatau/issues"
   },
-  "homepage": "https://github.com/christiannguyen/ucsbthetatau#readme"
+  "homepage": "https://github.com/christiannguyen/ucsbthetatau#readme",
+ 
 }
