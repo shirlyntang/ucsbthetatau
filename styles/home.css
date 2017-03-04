@@ -12,18 +12,19 @@ Hex #   8B0000     FFCC33    EDEAB5
 .navigation {
   height: 8vh;
   position: fixed;
-  background-color: #fafafa;
+  background-color: #f9f9f9;
   width: 100%;
   z-index: 10; }
   .navigation .nav-container .brand {
     position: absolute;
-    margin-left: 12%; }
+    top: 23px;
+    margin-left: 3.5%; }
     .navigation .nav-container .brand a {
-      line-height: 10px;
+      line-height: 20px;
       font-weight: 1200;
-      color: #8B0000;
-      font: 350% 'Roboto', sans-serif;
-      letter-spacing: 2px;
+      color: #000000;
+      font: 105% 'Lato', sans-serif;
+      letter-spacing: 3px;
       text-decoration: none; }
   .navigation .nav-container nav {
     margin-right: 5%;
@@ -38,13 +39,14 @@ Hex #   8B0000     FFCC33    EDEAB5
         float: left;
         position: relative; }
         .navigation .nav-container nav ul li a {
-          font: 130% 'Lato', sans-serif;
+          font: 105% 'Lato', sans-serif;
           display: block;
           padding: 0 20px;
-          line-height: 70px;
+          line-height: 8vh;
           color: #000000;
           text-decoration: none; }
           .navigation .nav-container nav ul li a:hover {
+            cursor: pointer;
             color: #8B0000; }
         .navigation .nav-container nav ul li:hover > ul.nav-dropdown {
           display: block; }
@@ -85,15 +87,15 @@ Hex #   8B0000     FFCC33    EDEAB5
         font-family: 'Montserrat', sans-serif;
         padding: 0;
         text-align: center;
-        font-size: 8em;
-        font-weight: 1000;
+        font-size: 6.5em;
+        font-weight: 900;
         color: #000000;
-        letter-spacing: 3px; }
+        letter-spacing: 3.5px; }
       .home-image .responsive-image .image-text h2 {
-        font-family: 'Nunito', sans-serif;
-        letter-spacing: 1.5px;
+        font-family: 'Lato', sans-serif;
+        letter-spacing: 2px;
         text-align: center;
-        font-size: 1.4em;
+        font-size: 1.2em;
         font-weight: 800;
         color: #000000; }
 
