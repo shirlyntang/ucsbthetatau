@@ -1,9 +1,8 @@
 var express = require('express');
 var app = express();
-// let server = require('http').Server(app);
 
 //set port
-var port = process.env.PORT || 8000;
+var port = process.env.PORT || 8080; 
 
 app.use(express.static(__dirname + "/views"));
 
