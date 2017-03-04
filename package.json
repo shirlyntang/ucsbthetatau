@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node index.js"
   }, 
-   "dependencies": {
+  "dependencies": {
     "express": "^4.15.0"
   },
   "repository": {
@@ -21,6 +21,5 @@
   "bugs": {
     "url": "https://github.com/christiannguyen/ucsbthetatau/issues"
   },
-  "homepage": "https://github.com/christiannguyen/ucsbthetatau#readme",
- 
+  "homepage": "https://github.com/christiannguyen/ucsbthetatau#readme"
 }
