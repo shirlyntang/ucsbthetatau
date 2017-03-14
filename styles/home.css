@@ -207,7 +207,7 @@ Hex #   8B0000     FFCC33    EDEAB5
   margin-bottom: 0%; }
   .rush-info .rush-button {
     margin: 0 15%;
-    position: absolute;
+    position: relative;
     text-align: center;
     padding-top: 10%; }
     .rush-info .rush-button p {
@@ -335,4 +335,27 @@ Hex #   8B0000     FFCC33    EDEAB5
       .navigation .nav-container nav ul.nav-list.responsive li.open:not(.icon):hover > ul.nav-dropdown {
         display: block; }
         .navigation .nav-container nav ul.nav-list.responsive li.open:not(.icon):hover > ul.nav-dropdown li a:hover {
-          background: #8B0000; } }
+          background: #8B0000; }
+  .pillars-wrapper .pillars-header h2 {
+    font-size: 250%; }
+  .pillars-wrapper .pillars-header h3 {
+    font-size: 160%; }
+  .pillars-wrapper .pillars-header p#theta-tau-info {
+    margin: 8% 8%; }
+  .pillars-wrapper .pillars-third-wrapper {
+    display: block; }
+  .home-image .responsive-image .image-text h1 {
+    font-size: 6em; } }
+
+@media screen and (max-width: 576px) {
+  .navigation .nav-container .brand {
+    top: 18px; }
+    .navigation .nav-container .brand a {
+      font-size: 70%; }
+  .home-image .responsive-image .image-text h1 {
+    font-size: 3.9em; }
+  .home-image .responsive-image .image-text h2 {
+    font-size: 0.8em; }
+  .footer-wrapper .footer-info h3 {
+    font-size: 95%;
+    padding: 8px 0; } }
