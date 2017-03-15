@@ -158,7 +158,6 @@ Hex #   8B0000     FFCC33    EDEAB5
       .pillars-wrapper .pillars-third-wrapper .pillars-third p {
         font-family: 'Lato', sans-serif; }
 
-/* About us ---- Rush  -------- */
 /* Image with Rush */
 .rush-info {
   padding-bottom: 5%;
@@ -311,10 +310,6 @@ Hex #   8B0000     FFCC33    EDEAB5
     font-size: 6em; } }
 
 @media screen and (max-width: 576px) {
-  .navigation .nav-container .brand {
-    top: 18px; }
-    .navigation .nav-container .brand a {
-      font-size: 70%; }
   .home-image .responsive-image .image-text h1 {
     font-size: 3.9em; }
   .home-image .responsive-image .image-text h2 {
