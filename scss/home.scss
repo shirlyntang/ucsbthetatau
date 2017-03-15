@@ -196,49 +196,50 @@ $nav-color: #f9f9f9;
 
 /* About us ---- Rush  -------- */
 
-.about-us-wrapper {
-  background-color: $off-white;
-  height: 100%;
-  display: relative;
-  .about-us-header {
-    margin: 0 20%;
-    background: $off-white;
-    p#slogan {
-      text-align: center;
-      font-size: 150%;
-      font-weight: 500;
-      font-family: 'Lato', sans-serif;
-      letter-spacing: 1px;
-      margin-bottom: 20%;
-    }
-  }
-  .rush-button {
-    margin: 0 20%;
-    text-align: center;
-    padding-top: 4%;
-    padding-bottom: 10%;
-    a {
-      text-decoration: none;
-       :hover {
-        cursor: pointer;
-        background-color: $dark-red;
-        color: #FFFFFF;
-      }
-      button {
-        font-family: 'Roboto Slab', sans-serif;
-        padding: 15px 40px;
-        border: 2px solid black;
-        border-radius: 5px;
-        font-size: 175%;
-        font-weight: 600;
-        color: black;
-        background-color: white;
-        transition-duration: 0.4s;
-        cursor: pointer;
-      }
-    }
-  }
-}
+// .about-us-wrapper {
+//   background-color: $off-white;
+//   height: 100%;
+//   display: relative;
+//   .about-us-header {
+//     margin: 0 20%;
+//     background: $off-white;
+//     p#slogan {
+//       text-align: center;
+//       font-size: 150%;
+//       font-weight: 500;
+//       font-family: 'Lato', sans-serif;
+//       letter-spacing: 1px;
+//       margin-bottom: 20%;
+//     }
+//   }
+//   .rush-button {
+//     position: absolute;
+//     // margin: 0 20%;
+//     // text-align: center;
+//     // padding-top: 4%;
+//     padding-bottom: 10%;
+//     a {
+//       text-decoration: none;
+//        :hover {
+//         cursor: pointer;
+//         background-color: $dark-red;
+//         color: #FFFFFF;
+//       }
+//       button {
+//         font-family: 'Roboto Slab', sans-serif;
+//         padding: 15px 40px;
+//         border: 2px solid black;
+//         border-radius: 5px;
+//         font-size: 175%;
+//         font-weight: 600;
+//         color: black;
+//         background-color: white;
+//         transition-duration: 0.4s;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+// }
 
 
 /* Image with Rush */
@@ -248,14 +249,17 @@ $nav-color: #f9f9f9;
   background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/tabling.jpg");
   height: 375px;
   max-width: 100%;
+  width: 100%;
   background-size: cover;
   background-position: 0% 20%;
   margin-bottom: 0%;
   .rush-button {
-    margin: 0 15%;
+    // margin: 0 15%
     position: relative;
     text-align: center;
-    padding-top: 10%;
+    // padding-top: 10%;
+    top: 30%;
+    // left: 5%;
     p {
       width: 100%;
       font-size: 350%;
