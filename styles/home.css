@@ -100,7 +100,7 @@ Hex #   8B0000     FFCC33    EDEAB5
         color: #000000; }
 
 /*              Three Pillars           */
-.pillars-wrapper {
+.pillars-wrapper {  
   background-color: #fafafa;
   padding-top: 8.5%;
   width: 100%; }
