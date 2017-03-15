@@ -1,1 +1,1 @@
-<?php header( 'Location: views/home.html' ) ;  ?>
+<?php header( 'Location: views/rush.html' ) ;  ?>
