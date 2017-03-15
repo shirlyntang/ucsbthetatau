@@ -63,6 +63,10 @@
               padding: 15px;
               line-height: 20px; }
 
+/* Content Area */
+.pro-dev-content {
+  padding-top: 8vh; }
+
 /* Footer Area */
 .footer-wrapper {
   background: #fafafa;

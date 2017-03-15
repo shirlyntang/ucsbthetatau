@@ -93,9 +93,11 @@
     float: right;
     margin: 0 auto;
     width: 50%;
-    height: auto; }
+    height: 300px;
+    background-repeat: no-repeat; }
     .theta-tau-origins aside.two img {
-      height: 300px;
+      height: 100%;
+      width: 100%;
       margin: 0 auto;
       display: block; }
   .theta-tau-origins article.one {
@@ -113,7 +115,7 @@
   .theta-tau-origins article.two {
     float: left;
     margin: 0 auto;
-    width: 50%;
+    width: 40%;
     height: auto; }
     .theta-tau-origins article.two h2 {
       font: 3em 'Playfair Display', serif; }
@@ -226,12 +228,14 @@
       width: 100%;
       height: 100%; }
   .theta-tau-origins aside.two {
-    float: none; }
+    float: none;
+    width: 100%; }
     .theta-tau-origins aside.two img {
       width: 100%;
       height: 100%; }
   .theta-tau-origins article.one {
-    float: none; }
+    float: none;
+    width: 100%; }
     .theta-tau-origins article.one h2 {
       text-align: center;
       font: 3em 'Playfair Display', sans-serif; }
@@ -241,7 +245,8 @@
       font-size: 1.1em;
       width: 100%; }
   .theta-tau-origins article.two {
-    float: none; }
+    float: none;
+    width: 100%; }
     .theta-tau-origins article.two h2 {
       text-align: center;
       font: 3em 'Playfair Display', sans-serif; }
