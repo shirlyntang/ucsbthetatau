@@ -170,8 +170,8 @@ Hex #   8B0000     FFCC33    EDEAB5
   margin-bottom: 0%; }
   .rush-info .rush-button {
     position: relative;
-    text-align: center;
-    top: 30%; }
+    text-align: center; 
+    top: 30%; } 
     .rush-info .rush-button p {
       width: 100%;
       font-size: 350%;
