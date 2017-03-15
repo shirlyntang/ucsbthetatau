@@ -113,6 +113,7 @@ Hex #   8B0000     FFCC33    EDEAB5
       font-weight: 500;
       font-family: 'PT Sans', sans-serif;
       letter-spacing: 1.5px;
+      color: purple;
       border-bottom: 3px solid #8B0000; }
     .pillars-wrapper .pillars-header h3 {
       padding-top: 3%;
@@ -170,7 +171,7 @@ Hex #   8B0000     FFCC33    EDEAB5
   margin-bottom: 0%; }
   .rush-info .rush-button {
     position: relative;
-    text-align: center;
+    text-align: center; 
     top: 30%; }
     .rush-info .rush-button p {
       width: 100%;
