@@ -2,7 +2,7 @@
   "root": "views",
   "clean_urls": true,
   "routes": {
-    "/assets/*": "/assets/",
+    "/assets/*": "../assets/",
     "/**": "index.html"
   }
 }
