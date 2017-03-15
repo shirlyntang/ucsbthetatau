@@ -108,6 +108,7 @@ Hex #   8B0000     FFCC33    EDEAB5
     margin: 0 10%;
     text-align: center; }
     .pillars-wrapper .pillars-header h2 {
+      color: purple;
       display: inline-block;
       font-size: 300%;
       font-weight: 500;
