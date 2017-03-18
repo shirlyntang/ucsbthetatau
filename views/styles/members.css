@@ -76,13 +76,121 @@
       text-transform: uppercase;
       font: 3em 'Lato', sans-serif;
       border-bottom: 2px solid black; }
+    .members .members-image-wrapper h2 {
+      text-align: center;
+      padding: 8% 0;
+      color: #8B0000;
+      text-transform: uppercase;
+      font: 2em 'Lato', sans-serif;
+      letter-spacing: 1px; }
+    .members .members-image-wrapper .exec-wrapper-top {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 0 15%;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around; }
+      .members .members-image-wrapper .exec-wrapper-top .members-image {
+        margin: 3% 2%;
+        position: relative;
+        display: inline-block;
+        width: 40%; }
+        .members .members-image-wrapper .exec-wrapper-top .members-image img {
+          height: auto;
+          display: block;
+          width: 100%; }
+        .members .members-image-wrapper .exec-wrapper-top .members-image .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #000000;
+          overflow: hidden;
+          width: 100%;
+          height: 0;
+          transition: all .5s ease; }
+          .members .members-image-wrapper .exec-wrapper-top .members-image .overlay .desc {
+            white-space: nowrap;
+            position: absolute;
+            font-size: 100%;
+            overflow: hidden;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            top: 50%;
+            left: 50%; }
+            .members .members-image-wrapper .exec-wrapper-top .members-image .overlay .desc p {
+              color: white;
+              font-weight: 1000;
+              font: 1.2em 'Lato', sans-serif;
+              text-align: center;
+              padding: 6% 0; }
+        .members .members-image-wrapper .exec-wrapper-top .members-image:hover .overlay {
+          height: 100%;
+          display: block;
+          opacity: .5; }
+    .members .members-image-wrapper .exec-wrapper-bottom {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+      margin: 0 5%; }
+      .members .members-image-wrapper .exec-wrapper-bottom .members-image {
+        margin: 3% 2%;
+        position: relative;
+        display: inline-block;
+        width: 100%; }
+        .members .members-image-wrapper .exec-wrapper-bottom .members-image img {
+          height: auto;
+          display: block;
+          width: 100%; }
+        .members .members-image-wrapper .exec-wrapper-bottom .members-image .overlay {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          background-color: #000000;
+          overflow: hidden;
+          width: 100%;
+          height: 0;
+          transition: all .5s ease; }
+          .members .members-image-wrapper .exec-wrapper-bottom .members-image .overlay .desc {
+            white-space: nowrap;
+            position: absolute;
+            font-size: 100%;
+            overflow: hidden;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            top: 30%;
+            left: 50%; }
+            .members .members-image-wrapper .exec-wrapper-bottom .members-image .overlay .desc p {
+              color: white;
+              font-weight: 1000;
+              font: 1.2em 'Lato', sans-serif;
+              text-align: center;
+              padding: 3% 0; }
+        .members .members-image-wrapper .exec-wrapper-bottom .members-image:hover .overlay {
+          height: 100%;
+          display: block;
+          opacity: .5; }
+    .members .members-image-wrapper .brothers-wrapper h2 {
+      text-align: center;
+      padding: 8% 0;
+      color: #8B0000;
+      text-transform: uppercase;
+      font: 2em 'Lato', sans-serif;
+      letter-spacing: 1px; }
     .members .members-image-wrapper .members-image {
       margin: 3% 2%;
       position: relative;
       display: inline-block;
       width: 20%; }
       .members .members-image-wrapper .members-image img {
-        height: auto;
+        height: 300px;
         display: block;
         width: 100%; }
       .members .members-image-wrapper .members-image .overlay {
@@ -90,13 +198,12 @@
         bottom: 0;
         left: 0;
         right: 0;
-        background-color: #008CBA;
+        background-color: #000000;
         overflow: hidden;
         width: 100%;
         height: 0;
         transition: all .5s ease; }
         .members .members-image-wrapper .members-image .overlay .desc {
-          color: white;
           white-space: nowrap;
           position: absolute;
           font-size: 100%;
@@ -107,6 +214,8 @@
           top: 30%;
           left: 50%; }
           .members .members-image-wrapper .members-image .overlay .desc p {
+            color: white;
+            font-weight: 1000;
             font: 1.2em 'Lato', sans-serif;
             text-align: center;
             padding: 3% 0; }

@@ -98,7 +98,7 @@
     width: 100%;
     list-style-type: none; }
     .content-nav ul li {
-      padding: 0 5.5%;
+      width: 30%;
       display: inline-block; }
       .content-nav ul li a {
         text-decoration: none; }
@@ -113,7 +113,7 @@
         .content-nav ul li a button {
           background-color: #e1e1e1;
           font-family: 'Nunito', sans-serif;
-          padding: 15px 70px;
+          padding: 15px 60px;
           border: 0px solid #e1e1e1;
           border-radius: 50px;
           letter-spacing: 1.5px;
@@ -144,7 +144,8 @@
     margin: 1.5% 20% 0 20%;
     padding: 0 2%;
     border: 1px solid black;
-    position: relative; }
+    position: relative;
+    border-radius: 7px; }
     .schedule-content .day-block h3 {
       padding-top: 1%;
       text-align: center;
@@ -192,21 +193,29 @@
     -o-transition: all .8s ease;
     -webkit-transition: all .8s ease;
     transition: all 0.8s ease;
-    font-weight: 600; }
+    font-weight: 600;
+    cursor: pointer; }
   .faqs-content .toggle-question .arrow {
     padding-right: 1%; }
   .faqs-content .toggle-question .toggle-answer {
     height: 0px;
     overflow: hidden;
-    transition: height 0.5s ease;
-    -moz-transition: height 0.5s ease;
-    -ms-transition: height 0.5s ease;
-    -o-transition: height 0.5s ease;
-    -webkit-transition: height 0.5s ease; }
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
     .faqs-content .toggle-question .toggle-answer p {
+      font: 1.05em 'Open Sans', sans-serif;
       padding-top: 1%; }
   .faqs-content .toggle-question .displayed {
-    height: 75px; }
+    overflow: auto;
+    height: 1%;
+    transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease; }
 
 .faqs-content .faq-color {
   -moz-transition: all .2s ease-in;
@@ -318,4 +327,7 @@
       .navigation .nav-container nav ul.nav-list.responsive li.open:not(.icon):hover > ul.nav-dropdown {
         display: block; }
         .navigation .nav-container nav ul.nav-list.responsive li.open:not(.icon):hover > ul.nav-dropdown li a:hover {
-          background: #8B0000; } }
+          background: #8B0000; }
+  .content-nav ul li {
+    width: 100%;
+    padding: 1.2% 0; } }
