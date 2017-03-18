@@ -137,7 +137,7 @@
       padding-bottom: 0.5%;
       font-size: 3em;
       border-radius: 3px;
-      font-family: 'Raleway', sans-serif; } 
+      font-family: 'Raleway', sans-serif; }
   .schedule-content .day-block {
     height: 180px;
     max-width: 100%;
@@ -145,7 +145,7 @@
     padding: 0 2%;
     border: 1px solid black;
     position: relative;
-    border-radius: 7px; }
+    border-radius: 8px; }
     .schedule-content .day-block h3 {
       padding-top: 1%;
       text-align: center;
@@ -155,7 +155,7 @@
       text-align: center; }
     .schedule-content .day-block p {
       padding-top: 1%;
-      font: 100% 'Lato', sans-serif;
+      font: 110% 'Lato', sans-serif;
       max-width: 100%;
       width: 70%; }
     .schedule-content .day-block #date-location {
