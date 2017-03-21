@@ -143,20 +143,21 @@ Hex #   8B0000     FFCC33    EDEAB5
     -ms-flex-pack: justify;
     justify-content: space-between; }
     .pillars-wrapper .pillars-third-wrapper .pillars-third {
-      -webkit-flex-basis: 33.3%;
-      -ms-flex-preferred-size: 33.3%;
-      flex-basis: 33.3%;
+      -webkit-flex-basis: 30%;
+      -ms-flex-preferred-size: 30%;
+      flex-basis: 30%;
       text-align: center;
       padding-bottom: 8%; }
       .pillars-wrapper .pillars-third-wrapper .pillars-third h3 {
         letter-spacing: 1.25px;
         font-weight: 500;
-        font-family: 'Oxygen', sans-serif;
-        font-size: 150%;
+        font: 1.4em 'Lato', sans-serif;
         margin-top: 5%;
         padding-bottom: 5%; }
       .pillars-wrapper .pillars-third-wrapper .pillars-third p {
-        font-family: 'Lato', sans-serif; }
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9em;
+        text-align: center; }
 
 /* Image with Rush */
 .rush-info {

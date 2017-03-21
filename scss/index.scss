@@ -176,19 +176,20 @@ $nav-color: #f9f9f9;
     margin: 3.5% 3% 0 3%;
     justify-content: space-between;
     .pillars-third {
-      flex-basis: 33.3%;
+      flex-basis: 30%;
       text-align: center;
       padding-bottom: 8%;
       h3 {
         letter-spacing: 1.25px;
         font-weight: 500;
-        font-family: 'Oxygen', sans-serif;
-        font-size: 150%;
+        font: 1.4em 'Lato', sans-serif;
         margin-top: 5%;
         padding-bottom: 5%;
       }
       p {
-        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 0.9em;
+        text-align: center;
       }
     }
   }
