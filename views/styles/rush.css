@@ -330,4 +330,15 @@
           background: #8B0000; }
   .content-nav ul li {
     width: 100%;
-    padding: 1.2% 0; } }
+    padding: 1.2% 0; }
+  .schedule-content .day-block {
+    margin: 2.5% 10% 0 10%; }
+    .schedule-content .day-block p {
+      font-size: 0.9em;
+      padding-top: 3%; }
+    .schedule-content .day-block h3 {
+      font-size: 1.3em; }
+    .schedule-content .day-block h4 {
+      font-size: 1.2em; }
+    .schedule-content .day-block #date-location p {
+      font-size: 0.8em; } }

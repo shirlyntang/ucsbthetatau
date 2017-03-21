@@ -453,4 +453,25 @@
        }
      }
    }
+   .schedule-content{
+     .day-block{
+       margin: 2.5% 10% 0 10%;
+       
+       p{
+         font-size: 0.9em;
+         padding-top: 3%;
+       }
+       h3{
+         font-size: 1.3em;
+       }
+       h4{
+         font-size: 1.2em;
+       }
+       #date-location {
+       p {
+         font-size: 0.8em;
+       }
+     }
+     }
+   }
  }
