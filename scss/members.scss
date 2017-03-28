@@ -109,13 +109,13 @@
      margin: 0 10%;
      .exec-wrapper-top {
        display: flex;
-       margin: 0 15%;
-       justify-content: space-around;
+       margin: 0 5%;
+       justify-content: space-between;
        .members-image {
          margin: 3% 2%;
          position: relative;
-         display: inline-block;
-         width: 40%;
+        //  display: inline-block;
+         flex-basis: 400px;
          img {
            height: auto;
            display: block;
@@ -142,7 +142,7 @@
            left: 50%;
            p {
              color: white;
-             font-weight: 1000;
+            //  font-weight: 1000;
              font: 1.2em 'Lato', sans-serif;
              text-align: center;
              padding: 6% 0;
@@ -165,14 +165,13 @@
      }
      .exec-wrapper-bottom {
        display: flex;
-       justify-content: space-around;
-       //  width: 100%; 
-       margin: 0 5%;
+       justify-content: space-between;
+       margin: 0 3%;
        .members-image {
          margin: 3% 2%;
          position: relative;
          display: inline-block;
-         width: 100%;
+         flex-basis: 425px;
          img {
            height: auto;
            display: block;
@@ -216,6 +215,10 @@
        }
      }
      .brothers-wrapper {
+         display: flex;
+         flex-wrap:wrap;
+         justify-content: space-around;
+         width: 100%;
        h2 {
          text-align: center;
          padding: 8% 0;
@@ -224,15 +227,14 @@
          font: 2em 'Lato', sans-serif;
          letter-spacing: 1px;
        }
-     }
      .members-image {
        margin: 3% 2%;
        position: relative;
        display: inline-block;
-       width: 20%;
+       flex-basis: 300px;
        img {
-         height: 300px;
-         display: block;
+         height: 375px;
+        //  display: block;
          width: 100%;
        }
        .overlay {
@@ -271,6 +273,7 @@
          opacity: .5;
        }
      }
+   }
    }
  }
  /* Footer Area */
@@ -420,5 +423,12 @@
          }
        }
      }
+   }
+   .exec-wrapper-top{
+     flex-wrap: wrap;
+   }
+   .exec-wrapper-bottom{
+     flex-wrap: wrap;
+     justify-content: space-around;
    }
  }

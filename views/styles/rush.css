@@ -69,7 +69,8 @@
 
 #content-flyer {
   text-align: center;
-  padding-top: 8vh; }
+  padding-top: 8vh;
+  background-color: #fafafa; }
   #content-flyer h2 {
     width: 50%;
     display: inline-block;
@@ -80,13 +81,14 @@
     padding-bottom: 0.5%; }
   #content-flyer .flyer-img {
     margin-top: 3%;
-    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-    background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-    background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+    background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
     height: 500px;
-    max-width: 100%;
-    background-size: cover;
+    width: 100%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
     background-position: center; }
 
 .content-nav {
@@ -148,11 +150,9 @@
     border-radius: 8px; }
     .schedule-content .day-block h3 {
       padding-top: 1%;
-      text-align: center;
       font: 200% 'Muli', sans-serif; }
     .schedule-content .day-block h4 {
-      font: 120% 'Open Sans', sans-serif;
-      text-align: center; }
+      font: 120% 'Open Sans', sans-serif; }
     .schedule-content .day-block p {
       padding-top: 1%;
       font: 110% 'Lato', sans-serif;
@@ -160,7 +160,7 @@
       width: 70%; }
     .schedule-content .day-block #date-location {
       position: absolute;
-      bottom: 2.5%;
+      top: 2.5%;
       right: 3%; }
       .schedule-content .day-block #date-location p {
         width: 100%; }

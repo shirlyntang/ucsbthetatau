@@ -99,7 +99,9 @@
  // flyer image
  #content-flyer {
    text-align: center;
+  //  padding: 0 5%;
    padding-top: 8vh; 
+   background-color: $off-white;
    h2 {
      width: 50%;
      display: inline-block;
@@ -110,16 +112,18 @@
      padding-bottom: 0.5%;
    }
    .flyer-img {
-     margin-top: 3%;
-     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-     background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-     background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-     background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/home-image-3.jpg");
-     height: 500px;
-     max-width: 100%;
-     background-size: cover;
-     background-position: center;
-   }
+        margin-top: 3%;
+
+        background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+        background: -moz-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+        background: -o-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../assets/rush-flyer.jpg");
+        height: 500px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
  }
  
  // Content Area
@@ -192,12 +196,12 @@
      border-radius: 8px;
      h3 {
        padding-top: 1%;
-       text-align: center;
+      //  text-align: center;
        font: 200% 'Muli', sans-serif;
      }
      h4 {
        font: 120% 'Open Sans', sans-serif;
-       text-align: center;
+      //  text-align: center;
      }
      p {
        padding-top: 1%;
@@ -207,7 +211,7 @@
      }
      #date-location {
        position: absolute;
-       bottom: 2.5%;
+       top: 2.5%;
        right: 3%;
        p {
          width: 100%;
