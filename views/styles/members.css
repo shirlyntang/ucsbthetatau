@@ -13,7 +13,7 @@
   z-index: 10; }
   .navigation .nav-container .brand {
     position: absolute;
-    top: 23px;
+    top: 30%;
     margin-left: 3.5%; }
     .navigation .nav-container .brand a {
       line-height: 20px;
@@ -31,6 +31,8 @@
       padding: 0; }
       .navigation .nav-container nav ul .icon {
         display: none; }
+        .navigation .nav-container nav ul .icon a {
+          font-size: 120%; }
       .navigation .nav-container nav ul li {
         float: left;
         position: relative; }
@@ -38,7 +40,7 @@
           font: 105% 'Lato', sans-serif;
           display: block;
           padding: 0 20px;
-          line-height: 8vh;
+          line-height: 7vh;
           color: #000000;
           text-decoration: none; }
           .navigation .nav-container nav ul li a:hover {
@@ -345,3 +347,7 @@
     -webkit-justify-content: space-around;
     -ms-flex-pack: distribute;
     justify-content: space-around; } }
+
+@media screen and (max-width: 576px) {
+  .navigation .nav-container .brand a {
+    font-size: 80%; } }

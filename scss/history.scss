@@ -20,11 +20,11 @@
      // margin: 0 auto;
      .brand {
        position: absolute;
-       top: 23px;
+       top: 30%;
        margin-left: 3.5%;
        a {
          line-height: 20px;
-         font-weight: 1200;
+         font-weight: 1200; 
          color: #000000;
          font: 105% 'Lato', sans-serif;
          letter-spacing: 3px;
@@ -40,6 +40,9 @@
          padding: 0;
          .icon {
            display: none;
+           a{
+             font-size: 120%;
+           }
          }
          li {
            float: left;
@@ -48,7 +51,7 @@
              font: 105% 'Lato', sans-serif;
              display: block;
              padding: 0 20px;
-             line-height: 8vh;
+             line-height: 7vh;
              color: #000000;
              text-decoration: none;
              &:hover {
@@ -363,13 +366,28 @@
 
  @media screen and (max-width:576px){
    .theta-tau-origins{
+     padding-top: 8vh;
      .clearfix{
        margin: 3% 0;
        width: 100%;
        #origins-info{
+         margin: 0 5%;
+         width: 90%;
          h2{
            font-size: 2.5em;
            width: 100%;
+         }
+         p{
+            width: 100%;
+         }
+       }
+     }
+   }
+   .navigation{
+     .nav-container{
+       .brand{
+         a{
+           font-size: 80%;
          }
        }
      }

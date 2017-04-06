@@ -17,7 +17,7 @@ Hex #   8B0000     FFCC33    EDEAB5
   z-index: 10; }
   .navigation .nav-container .brand {
     position: absolute;
-    top: 23px;
+    top: 30%;
     margin-left: 3.5%; }
     .navigation .nav-container .brand a {
       line-height: 20px;
@@ -35,6 +35,8 @@ Hex #   8B0000     FFCC33    EDEAB5
       padding: 0; }
       .navigation .nav-container nav ul .icon {
         display: none; }
+        .navigation .nav-container nav ul .icon a {
+          font-size: 120%; }
       .navigation .nav-container nav ul li {
         float: left;
         position: relative; }
@@ -42,7 +44,7 @@ Hex #   8B0000     FFCC33    EDEAB5
           font: 105% 'Lato', sans-serif;
           display: block;
           padding: 0 20px;
-          line-height: 8vh;
+          line-height: 7vh;
           color: #000000;
           text-decoration: none; }
           .navigation .nav-container nav ul li a:hover {
@@ -306,6 +308,8 @@ Hex #   8B0000     FFCC33    EDEAB5
     font-size: 6em; } }
 
 @media screen and (max-width: 576px) {
+  .navigation .nav-container .brand a {
+    font-size: 80%; }
   .home-image .responsive-image .image-text h1 {
     font-size: 3.9em; }
   .home-image .responsive-image .image-text h2 {

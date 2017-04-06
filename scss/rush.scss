@@ -25,11 +25,11 @@
      // margin: 0 auto;
      .brand {
        position: absolute;
-       top: 23px;
+       top: 30%;
        margin-left: 3.5%;
        a {
          line-height: 20px;
-         font-weight: 1200;
+         font-weight: 1200; 
          color: #000000;
          font: 105% 'Lato', sans-serif;
          letter-spacing: 3px;
@@ -40,31 +40,28 @@
        margin-right: 5%;
        float: right;
        ul {
-         // overflow: hidden;
          list-style-type: none;
          margin: 0;
          padding: 0;
-         //float: right;
          .icon {
            display: none;
+           a{
+             font-size: 120%;
+           }
          }
          li {
            float: left;
            position: relative;
-           // vertical-align: middle;
            a {
              font: 105% 'Lato', sans-serif;
              display: block;
              padding: 0 20px;
-             line-height: 8vh;
+             line-height: 7vh;
              color: #000000;
              text-decoration: none;
              &:hover {
                cursor: pointer;
                color: $dark-red;
-             }
-             &:not(:only-child):after {
-               // padding-left: 4px;
              }
            } // Dropdown list
            &:hover>ul.nav-dropdown {
@@ -476,6 +473,25 @@
          font-size: 0.8em;
        }
      }
+     }
+   }
+ }
+
+ @media screen and (max-width: 576px){
+    .schedule-content{
+     .day-block{      
+       h4{
+         font-size: 0.85em;
+       }
+     }
+   }
+    .navigation{
+     .nav-container{
+       .brand{
+         a{
+           font-size: 80%;
+         }
+       }
      }
    }
  }

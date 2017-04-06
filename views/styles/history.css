@@ -13,7 +13,7 @@
   z-index: 10; }
   .navigation .nav-container .brand {
     position: absolute;
-    top: 23px;
+    top: 30%;
     margin-left: 3.5%; }
     .navigation .nav-container .brand a {
       line-height: 20px;
@@ -31,6 +31,8 @@
       padding: 0; }
       .navigation .nav-container nav ul .icon {
         display: none; }
+        .navigation .nav-container nav ul .icon a {
+          font-size: 120%; }
       .navigation .nav-container nav ul li {
         float: left;
         position: relative; }
@@ -38,7 +40,7 @@
           font: 105% 'Lato', sans-serif;
           display: block;
           padding: 0 20px;
-          line-height: 8vh;
+          line-height: 7vh;
           color: #000000;
           text-decoration: none; }
           .navigation .nav-container nav ul li a:hover {
@@ -257,9 +259,18 @@
       width: 100%; } }
 
 @media screen and (max-width: 576px) {
-  .theta-tau-origins .clearfix {
-    margin: 3% 0;
-    width: 100%; }
-    .theta-tau-origins .clearfix #origins-info h2 {
-      font-size: 2.5em;
-      width: 100%; } }
+  .theta-tau-origins {
+    padding-top: 8vh; }
+    .theta-tau-origins .clearfix {
+      margin: 3% 0;
+      width: 100%; }
+      .theta-tau-origins .clearfix #origins-info {
+        margin: 0 5%;
+        width: 90%; }
+        .theta-tau-origins .clearfix #origins-info h2 {
+          font-size: 2.5em;
+          width: 100%; }
+        .theta-tau-origins .clearfix #origins-info p {
+          width: 100%; }
+  .navigation .nav-container .brand a {
+    font-size: 80%; } }
