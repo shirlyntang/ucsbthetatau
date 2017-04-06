@@ -50,7 +50,7 @@
              font: 105% 'Lato', sans-serif;
              display: block;
              padding: 0 20px;
-             line-height: 7vh;
+             line-height: 8vh;
              color: #000000;
              text-decoration: none;
              &:hover {
@@ -387,6 +387,15 @@
        .brand{
          a{
            font-size: 80%;
+         }
+       }
+     }
+      nav{
+       ul{
+         li{
+           a{
+             line-height: 7vh !important;
+           }
          }
        }
      }

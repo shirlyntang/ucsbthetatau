@@ -44,7 +44,7 @@
           font: 105% 'Lato', sans-serif;
           display: block;
           padding: 0 20px;
-          line-height: 7vh;
+          line-height: 8vh;
           color: #000000;
           text-decoration: none; }
           .navigation .nav-container nav ul li a:hover {
@@ -349,4 +349,6 @@
   .schedule-content .day-block h4 {
     font-size: 0.85em; }
   .navigation .nav-container .brand a {
-    font-size: 80%; } }
+    font-size: 80%; }
+  .navigation nav ul li a {
+    line-height: 7vh !important; } }

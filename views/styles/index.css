@@ -44,7 +44,7 @@ Hex #   8B0000     FFCC33    EDEAB5
           font: 105% 'Lato', sans-serif;
           display: block;
           padding: 0 20px;
-          line-height: 7vh;
+          line-height: 8vh;
           color: #000000;
           text-decoration: none; }
           .navigation .nav-container nav ul li a:hover {
@@ -310,6 +310,8 @@ Hex #   8B0000     FFCC33    EDEAB5
 @media screen and (max-width: 576px) {
   .navigation .nav-container .brand a {
     font-size: 80%; }
+  .navigation nav ul li a {
+    line-height: 7vh !important; }
   .home-image .responsive-image .image-text h1 {
     font-size: 3.9em; }
   .home-image .responsive-image .image-text h2 {
