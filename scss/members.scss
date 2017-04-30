@@ -117,7 +117,7 @@
        .members-image {
          margin: 3% 2%;
          position: relative;
-        //  display: inline-block;
+         display: inline-block;
          flex-basis: 500px;
          img {
            height: 500px;
@@ -146,7 +146,7 @@
            p {
              color: white;
             //  font-weight: 1000;
-             font: 1.2em 'Lato', sans-serif;
+             font: 1.3em 'Lato', sans-serif;
              text-align: center;
              padding: 6% 0;
              .board-position{}
@@ -169,7 +169,7 @@
      .exec-wrapper-bottom {
        display: flex;
        justify-content: space-between;
-       margin: 0 0%;
+       margin: 0 -6%;
        .members-image {
          margin: 3% 0.7%;
          position: relative;
@@ -177,7 +177,7 @@
          flex-basis: 500px;
          img {
            height: 405px;
-          //  display: block;
+           display: block;
            width: 100%;
          }
          .overlay {
@@ -429,10 +429,12 @@
    }
    .exec-wrapper-top{
      flex-wrap: wrap;
+    // display: block;
    }
    .exec-wrapper-bottom{
      flex-wrap: wrap;
-     justify-content: space-around;
+    //  justify-content: space-around;
+     margin:0 3% !important;
    }
  }
 
