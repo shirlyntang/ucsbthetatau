@@ -1,221 +1,164 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>UCSB Theta Tau</title>
-  <link rel="shortcut icon" type="image/  x-icon" href="../assets/favicon.ico" />
-  <link rel="stylesheet" href="styles/rush.css" type="text/css">
-  <link href="styles/font-awesome.min.css" rel="stylesheet" />
+    <title>UCSB Theta Tau</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/rush.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <section class="navigation">
-    <div class="nav-container">
-      <div class="brand">
-        <a href="index.html">THETA TAU | UCSB COLONY</a>
-      </div>
-      <nav>
-        <ul class="nav-list">
-          </li>
-          <li><a href="index.html">HOME</a>
-            <li><a href="history.html">ABOUT</a>
-              <!--<ul class="nav-dropdown">
-                <li><a href="about.html">History</a></li>
-                <li><a href="#!">Brotherhood</a></li>
-                <li><a href="#!">Professional Development</a></li>
-                <li><a href="#!">Service</a></li>
-              </ul>-->
-            </li>
-            <li><a>MEMBERS</a>
-              <ul class="nav-dropdown">
-                <li><a href="members.html">Current Brothers</a></li>
-                <li><a href="#!">Alumni</a></li>
-              </ul>
-            </li>
-            <li><a href="rush.html">RUSH</a></li>
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="navDropDown()">☰</a>
-            </li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-  <!--flyer image-->
-  <div id="content-flyer">
-    <h2> Spring Rush 2017 </h2>
-    <div class="flyer-img">
-      <!--<img src="../assets/rsz_1rush-flyer.jpg">-->
-      <!--<picture>
-  <source media="(max-width: 450px)" srcset="../assets/home-image.jpg" height="10px">
-  <img src="../assets/rush-flyer.jpg" alt="Spring Rush 2017 Theta Tau">
-</picture>-->
-    </div>
-  </div>
-  <!-- Content and Info-->
-  <div class="content-nav">
-    <ul>
-      <li>
-        <a href="https://www.facebook.com/events/606148556245670/?notif_t=plan_edited&notif_id=1490683085734320" target="_blank">
-          <button> FACEBOOK </button>
-        </a>
-      </li>
-      <li>
-        <a href="https://goo.gl/forms/XMKpjEHizvf10OBF3" target="_blank">
-          <button> APPLY NOW </button>
-        </a>
-      </li>
-      <li>
-        <a href="#faq-header">
-          <button> FAQs </button>
-        </a>
-      </li>
-    </ul>
-  </div>
-  <!--Schedule -->
-  <div class="schedule-content">
-    <div id="schedule-header">
-      <h2> Calendar of Events</h2>
-    </div>
-    <div class="day-block" id="mon">
-      <h3> Monday</h3>
-      <h4> Info Night</h4>
-      <p> Come meet the brothers of Theta Tau and learn more about UCSB'S only co-ed engineering fraternity! </p>
-      <div id="date-location">
-        <p> Date: 4/10 7-9PM </p>
-        <p> Location: HSSB 1174 </p>
-      </div>
-    </div>
-    <div class="day-block" id="tues">
-      <h3> Tuesday</h3>
-      <h4> Speed Dating</h4>
-      <p> Have a chance to speak to our brothers one-on-one and get to know us at our speed date night.</p>
-      <div id="date-location">
-        <p> Date: 4/11 7-9PM </p>
-        <p> Location: TD-W 2600 </p>
-      </div>
-    </div>
-    <div class="day-block" id="weds">
-      <h3> Wednesday</h3>
-      <h4> Professional Development</h4>
-      <p> Explore your major and learn how to get involved in your field. Meet a panel of UCSB students and professors in engineering!</p>
-      <div id="date-location">
-        <p> Date: 4/12 7-9PM</p>
-        <p> Location: North Hall 1006 </p>
-      </div>
-    </div>
-    <div class="day-block" id="thurs">
-      <h3> Thursday</h3>
-      <h4> BBQ Night</h4>
-      <p> Come out to our final night of rush for some final mingling, games, and burgers personally grilled by our brothers! </p>
-      <div id="date-location">
-        <p> Date: 4/13 5-7PM</p>
-        <p> Location: 6619 DP </p>
-      </div>
-    </div>
-    <div class="day-block" id="fri">
-      <h3> Friday</h3>
-      <h4> Interviews</h4>
-      <p> Please arrive at least 5 minutes before your scheduled interview time with two copies of your resume and a cover letter.
-      </p>
-      <div id="date-location">
-        <p> Date: Sign up for time slots</p>
-        <p> Location: College Career Ctr </p>
-      </div>
-    </div>
-  </div>
-  <!-- FAQS / REQUIREMENTS-->
-  <div class="faqs">
-    <div id="faq-header">
-      <h3> FAQs</h3>
-    </div>
-    <div class="faqs-content">
-      <div class="toggle-question">
-        <p class="header-question" onclick="displayFAQ(0)"> <span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span> What is Theta Tau?</p>
-        <div class="toggle-answer">
-          <p> Theta Tau is a professional co-ed engineering fraternity. We are a brotherhood that promotes professionalism, service,
-            and strong brotherly ties during and after their college years. </p>
-        </div>
-      </div>
-      <div class="toggle-question">
-        <p class="header-question" onclick="displayFAQ(1)"><span class="arrow"><i class="fa fa-caret-down" aria-hidden="<tru></tru>e"></i></span> What is rush?</p>
-        <div class="toggle-answer">
-          <p> Rush allows you to learn more about Theta Tau and what we have to offer. There will be several events that shows
-            you what our fraternity is about and gives you a chance to meet our active members. Rush is free and isn't a
-            requirement but it will give a better opportunity to learn about the fraternity and increase your chances of
-            receiving a bid. </p>
-        </div>
-      </div>
-      <div class="toggle-question">
-        <p class="header-question" onclick="displayFAQ(2)"><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span> Why should I rush?</p>
-        <div class="toggle-answer">
-          <p> Rush is an opportunity that will allow you to gauge your interest in a professional fraternity. Theta Tau will
-            help you grow academically, socially, and professionally. It will provide a strong social and
-            professional network that will last a lifetime.
-          </p>
-        </div>
-      </div>
-      <div class="toggle-question">
-        <p class="header-question" onclick="displayFAQ(3)"><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span> Do I have to attend all rush events
-          to join?</p>
-        <div class="toggle-answer">
-          <p> No you don't! However, it will help us get to know you more and make you stand out. We understand that it's difficult
-            to attend every single rush event because of school and other time commitments. We highly recommend you show
-            up to as many events as possible and reserve an interview slot! If you can't make it to any event please make
-            sure to email us at ucsbthetatau@gmail.com and explain to us your situation!
-          </p>
-        </div>
-      </div>
-      <div class="toggle-question">
-        <p class="header-question" onclick="displayFAQ(4)"><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span>What are the requirements to join Theta
-          Tau?</p>
-        <div class="toggle-answer">
-          <p>
-            You must have an academic GPA of 2.0 or above.<br> You cannot be an active member in a competing fraternity.
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Theta Tau | UCSB Colony</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                </div>
 
-          </p>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="dropdown">
+                            <a>About </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./history.html">History</a></li>
+                                <li><a href="./brotherhood.html">Brotherhood</a></li>
+                                <li><a href="./prodev.html">Professional</a></li>
+                            </ul>
+                        </li>
+                        <li class="dropdown">
+                            <a>Members </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./members.html">Actives</a></li>
+                                <li><a href="#">Alumni</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./rush.html">Rush</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="cover-photo">
+        <div class="container-fluid hero">
+            <div class="row">
+                <div class="col-xs-12 hero-text">
+                    <h1 id="theta-tau"> Rush</h1>
+                </div>
+            </div>
         </div>
-      </div>
-      <div class="toggle-question">
-        <p class="header-question" onclick="displayFAQ(5)"><span class="arrow"><i class="fa fa-caret-down" aria-hidden="true"></i></span>Do I have to be an engineer to rush?</p>
-        <div class="toggle-answer">
-          <p> No! We will be accepting Applied Mathematics. We will also accept you if you're intending on becoming an engineer.
-            </p>
+    </section>
+    <section id="main-info">
+        <div class="container-fluid">
+            <div class="row over">
+                <div class="col-xs-12">
+                    <h2> Spring Rush 2017 Is Over.</h2>
+                    <p> Thanks to everyone who came out to Spring Rush 2017. Make sure to come out to Fall Rush 2017!</p>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="flyer-img">
-    </div>
-    <!-- Content and Info-->
-    <!--- Footer ---->
-    <div class="footer-wrapper">
-      <div class="footer-info">
-        <h3> Copyright @ Theta Tau Colony - University of California, Santa Barbara</h3>
-        <p> Contact us at: thetatau@gmail.com</p>
-        <ul>
-          <li>
-            <a href="https://www.facebook.com/UCSBThetaTau/" target="_blank">
-              <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-            </a>
-          </li>
-          <!--<li>
-          <a href="#">
-            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-          </a>
-        </li>-->
-        </ul>
-      </div>
-      <footer>
-        <p> Website Designed By</p>
-        <p> Christian Nguyen</p>
-      </footer>
-    </div>
-    <!--- JQuery ------>
-    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-    <script src="app.js"></script>
+    </section>
+    <section id="faq">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h3> FAQS</h3>
+                </div>
+            </div>
+        </div>
+        <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                        
+        What is rush?
+                        </h4>
+                </div>
+                <div id="collapse1" class="panel-collapse collapse ">
+                    <div class="panel-body">Rush allows you to learn more about Theta Tau and what we have to offer. There will be several events
+                        that shows you what our fraternity is about and gives you a chance to meet our active members. Rush
+                        is free and isn't a requirement but it will give a better opportunity to learn about the fraternity
+                        and increase your chances of receiving a bid.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+        Why should I rush?
+                    </h4>
+                </div>
+                <div id="collapse2" class="panel-collapse collapse">
+                    <div class="panel-body">Rush is an opportunity that will allow you to gauge your interest in a professional fraternity. Theta
+                        Tau will help you grow academically, socially, and professionally. It will provide a strong social
+                        and professional network that will last a lifetime.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                        What are the requirements to join Theta Tau?
+                    </h4>
+                </div>
+                <div id="collapse3" class="panel-collapse collapse">
+                    <div class="panel-body">You must have an academic GPA of 2.0 or above.<br> You cannot be an active member in a competing fraternity.
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                        Do I have to attend all rush events to join?
+                    </h4>
+                </div>
+                <div id="collapse4" class="panel-collapse collapse">
+                    <div class="panel-body">No you don't! However, it will help us get to know you more and make you stand out. We understand that
+                        it's difficult to attend every single rush event because of school and other time commitments. We
+                        highly recommend you show up to as many events as possible and reserve an interview slot! If you
+                        can't make it to any event please make sure to email us at ucsbthetatau@gmail.com and explain to
+                        us your situation!
+                    </div>
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h4 class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse5">
+                        Do I have to be an engineer to rush?
+                    </h4>
+                </div>
+                <div id="collapse5" class="panel-collapse collapse">
+                    <div class="panel-body">No! We will be accepting Applied Mathematics. We will also accept you if you're intending on becoming
+                        an engineer.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row copyright-social">
+                <div class="col-xs-12">
+                    <p id="copyright">Copyright @ Theta Tau Colony - University of California, Santa Barbara</p>
+                    <p id="contact"> Contact us at: ucsbthetatau@gmail.com</p>
+                    <a href="https://www.facebook.com/UCSBThetaTau/" target="_blank"><img href="#" src="./assets/facebook.svg" class="img-responsive center-block"/></a>
+                    <p>Website Designed By <br> Christian Nguyen</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>

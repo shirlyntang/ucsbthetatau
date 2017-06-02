@@ -1,129 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>UCSB Theta Tau</title>
-  <link rel="stylesheet" href="styles/index.css" type="text/css">
-  <link rel="shortcut icon" type="image/  x-icon" href="assets/favicon.ico"/>
-  <link href="styles/font-awesome.min.css" rel="stylesheet" />
+    <title>UCSB Theta Tau</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="styles/index.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
 </head>
 
 <body>
-  <!-- Navigation Bar -->
-  <section class="navigation">  
-    <div class="nav-container">
-      <div class="brand">
-        <a href="index.html">THETA TAU | UCSB COLONY</a>
-      </div>
-      <nav>
-        <ul class="nav-list">
-          </li>
-          <li><a href="index.html">HOME</a>
-            <li><a href="history.html">ABOUT</a>
-              <!--<ul class="nav-dropdown">
-                <li><a href="about.html">History</a></li>
-                <li><a href="#!">Brotherhood</a></li>
-                <li><a href="#!">Professional Development</a></li>
-                <li><a href="#!">Service</a></li>
-              </ul>-->
-            </li>
-            <li><a>MEMBERS</a>
-              <ul class="nav-dropdown">
-                <li><a href="members.html">Current Brothers</a></li>
-                <li><a href="#!">Alumni</a></li>
-              </ul>
-            </li>
-            <li><a href="rush.html">RUSH</a></li>
-            <li class="icon">
-              <a href="javascript:void(0);" onclick="navDropDown()">☰</a>
-            </li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-  <!-- Image in Home Page -->
-  <div class="home-image">
-    <div class="responsive-image">
-      <div class="image-text">
-        <h1> THETA TAU </h1> 
-        <!-- <p> UCSB Colony </p> -->
-        <h2> Professional Co-ed Engineering Fraternity </h2>
-      </div>
-    </div>
-  </div>
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <a href="index.html" class="navbar-brand">Theta Tau | UCSB Colony</a>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+                </div>
 
-  <!-- Three Pillars ---->
-  <div class="pillars-wrapper">
-    <div class="pillars-header">
-      <h2>WHO WE ARE</h2>
-      <h3> The Largest and Oldest Co-ed Engineering Fraternity </h3>
-      <p id="theta-tau-info">The purpose of Theta Tau is to develop and maintain a high standard of professional interest among its members, and
-        to unite them in a strong bond of fraternal fellowship.</p>
-      <!--<h3> THETA TAU PILLARS </h3>-->
-      <!--<p> We strive to exhibit these following principles. </p>-->
-    </div>
-    <div class="pillars-third-wrapper">
-      <div class="pillars-third">
-        <i class="fa fa-heart fa-5x" aria-hidden="true"></i>
-        <h3> SERVICE</h3>
-        <p> The surrounding communities are very important to us. We believe that giving back to the community not only benefits the communities, but our brotherhood as well. Working alongside with our brothers creates a strong bond and allows us to grow and get involved.</p>
-      </div>
-      <div class="pillars-third">
-        <i class="fa  fa-mortar-board fa-5x" aria-hidden="true"></i>
-        <h3> PROFESSIONAL DEVELOPMENT </h3>
-        <p> At Theta Tau, we assist all of our members develop the professional skills needed in life after graduation.  From resume workshops to company info sessions, our chapter strives to provide the tools needed for any career path.  With the variety of skills and mentorship available from our network of engineers, one has the support needed to achieve the high level of professionalism we see in our members.</p>
-      </div>
-      <div class="pillars-third">
-        <i class="fa fa-group fa-5x" aria-hidden="true"></i>
-        <h3> BROTHERHOOD</h3>
-        <p> Promoting friendship and collaboration between fraternity members, brotherhood is one of the three key pillars of Theta Tau. Brothers of Theta Tau forge tightly-knit relationships through various brotherhood events, including socials, retreats, and friendly competition.</p>
-      </div>
-    </div>
-  </div>
-  <!-- About Us -->
-  <div class="about-us-wrapper">
-    <div class="about-us-header">
-    </div>
-  </div>
-  <!-- Image with Rush -->
-  <div class="rush-info">
-    <div class="rush-button">
-      <p> SPRING RUSH 2017 </p>
-      <a href="rush.html">
-        <button> Rush ΘΤ</button>
-      </a>
-    </div>
-  </div>
-  <!--- Footer ---->
-  <div class="footer-wrapper">
-    <div class="footer-info">
-      <h3> Copyright @ Theta Tau Colony - University of California, Santa Barbara</h3>
-
-      <p> Contact us at: thetatau@gmail.com</p>
-      <ul>
-        <li>
-          <a href="https://www.facebook.com/UCSBThetaTau/" target="_blank">
-            <i class="fa fa-facebook-square fa-3x" aria-hidden="true"></i>
-          </a>
-        </li>
-        <!--<li>
-          <a href="#">
-            <i class="fa fa-instagram fa-3x" aria-hidden="true"></i>
-          </a>
-        </li>-->
-      </ul>
-    </div>
-    <footer>
-      <p> Website Designed By</p>
-      <p> Christian Nguyen</p>
-    </footer>
-  </div>
-  <!--- JQuery ------>
-  <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
-  <script src="app.js"></script>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="./index.html">Home</a></li>
+                        <li class="dropdown">
+                                <a>About </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="./history.html">History</a></li>
+                                    <li><a href="./brotherhood.html">Brotherhood</a></li>
+                                    <li><a href="./prodev.html">Professional</a></li>
+                                </ul>
+                            </li>
+                        <li class="dropdown">
+                            <a>Members </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="./members.html">Actives</a></li>
+                                <li><a href="#">Alumni</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./rush.html">Rush</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <section id="cover-photo">
+        <div class="container-fluid hero">
+            <div class="row">
+                <div class="col-xs-12 hero-text">
+                    <h1 id="theta-tau"> Theta Tau</h1>
+                    <p>Professional Co-Ed Engineering Fraternity</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="main-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 who-description">
+                    <h2> Who We Are</h2>
+                    <p> The Largest and Oldest Co-ed Engineering Fraternity</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 purpose">
+                    <p> The purpose of Theta Tau is to develop and maintain a high standard of professional interest among its members, and to unite them in a strong bond of fraternal fellowship.</p>
+                </div>
+            </div>
+            <div class="row three-pillars">
+                <div class="col-md-4 col-xs-12 pillars">
+                    <img src="./assets/heart.svg" class="img-responsive center-block"/>
+                    <h3> Service</h3>
+                    <p>The surrounding communities are very important to us. We believe that giving back to the community not only benefits the communities, but our brotherhood as well. Working alongside with our brothers creates a strong bond and allows us to grow and get involved.</p>                    
+                </div>
+                <div class="col-md-4 col-xs-12 pillars">
+                    <img src="./assets/graduation-cap.svg" class="img-responsive center-block"/>
+                    <h3> Professional Development</h3>
+                    <p>At Theta Tau, we assist all of our members develop the professional skills needed in life after graduation. From resume workshops to company info sessions, our chapter strives to provide the tools needed for any career path. With the variety of skills and mentorship available from our network of engineers, one has the support needed to achieve the high level of professionalism we see in our members.</p>
+                </div>
+                <div class="col-md-4 col-xs-12 pillars">
+                    <img src="./assets/users.svg" class="img-responsive center-block"/>
+                    <h3> Brotherhood</h3>
+                    <p>
+Promoting friendship and collaboration between fraternity members, brotherhood is one of the three key pillars of Theta Tau. Brothers of Theta Tau forge tightly-knit relationships through various brotherhood events, including socials, retreats, and friendly competition.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer-image">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 footer-image-text">
+                    <p>Spring Rush 2017</p>
+                    <a href="./rush.html" >Rush ΘΤ</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer">
+        <div class="container-fluid">
+            <div class="row copyright-social">
+                <div class="col-xs-12">
+                    <p id="copyright">Copyright @ Theta Tau Colony - University of California, Santa Barbara</p>
+                    <p id="contact"> Contact us at: ucsbthetatau@gmail.com</p>
+                    <a href="https://www.facebook.com/UCSBThetaTau/" target="_blank"><img href="#" src="./assets/facebook.svg" class="img-responsive center-block"/></a>
+                    <p>Website Designed By <br> Christian Nguyen</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 
 </html>
