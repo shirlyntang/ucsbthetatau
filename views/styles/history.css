@@ -46,10 +46,10 @@ header .collapse .dropdown:hover .dropdown-menu {
   margin-top: 0; }
 
 #cover-photo .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(0, 0, 0, 0.55))), url("../assets/home-image.jpg");
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/home-image.jpg");
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/home-image.jpg");
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/home-image.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(0, 0, 0, 0.55))), url("../assets/historycover.jpg");
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/historycover.jpg");
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/historycover.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/historycover.jpg");
   height: 100vh;
   max-width: 100%;
   position: relative;
