@@ -46,10 +46,10 @@ header .collapse .dropdown:hover .dropdown-menu {
   margin-top: 0; }
 
 #cover-photo .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(0, 0, 0, 0.55))), url("./assets/home-image-3.jpg");
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("./assets/home-image-3.jpg");
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("./assets/home-image-3.jpg");
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("./assets/home-image-3.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(0, 0, 0, 0.55))), url("../assets/proCover2.jpg");
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/proCover2.jpg");
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/proCover2.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/proCover2.jpg");
   height: 100vh;
   max-width: 100%;
   position: relative;
@@ -67,7 +67,7 @@ header .collapse .dropdown:hover .dropdown-menu {
       color: #FFF;
       margin-left: 10%;
       margin-right: 10%;
-      font: 4em 'Proxima Nova', sans-serif;
+      font: 4.5rem 'Proxima Nova', sans-serif;
       margin-bottom: 3px; }
     #cover-photo .hero .row .hero-text p {
       color: #FFF;
@@ -88,7 +88,8 @@ header .collapse .dropdown:hover .dropdown-menu {
     text-align: center;
     vertical-align: middle;
     display: table-cell;
-    height: 150px; }
+    height: 150px;
+    margin-bottom: 20px; }
     #work .container-fluid .work-images .logos img {
       height: auto; }
 
@@ -117,3 +118,7 @@ header .collapse .dropdown:hover .dropdown-menu {
       margin-top: 20px;
       margin-bottom: 20px;
       width: 35px; }
+
+@media (max-width: 500px) {
+  header nav .navbar-header a {
+    font-size: 1em !important; } }
