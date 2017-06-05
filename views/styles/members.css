@@ -46,15 +46,15 @@ header .collapse .dropdown:hover .dropdown-menu {
   margin-top: 0; }
 
 #cover-photo .hero {
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(0, 0, 0, 0.55))), url("../assets/memberscover.jpg");
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/memberscover.jpg");
-  background: -o-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/memberscover.jpg");
-  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/memberscover.jpg");
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0.25)), to(rgba(0, 0, 0, 0.55))), url("../assets/activeMembersCover.jpg");
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/activeMembersCover.jpg");
+  background: -o-linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/activeMembersCover.jpg");
+  background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/activeMembersCover.jpg");
   height: 100vh;
   max-width: 100%;
   position: relative;
   background-size: cover;
-  background-position: top; }
+  background-position: 0 15%; }
   #cover-photo .hero .row .hero-text {
     text-align: center;
     position: absolute;

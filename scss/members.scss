@@ -62,12 +62,12 @@ header .collapse{
 }
 #cover-photo{
     .hero{
-        background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/memberscover.jpg");
+        background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/activeMembersCover.jpg");
         height: 100vh;
         max-width: 100%;
         position: relative;
         background-size: cover;
-        background-position: top;
+        background-position: 0 15%;
         .row{
             .hero-text{
                 text-align: center;
@@ -117,7 +117,7 @@ header .collapse{
                 padding: 5px;
                 // margin-right: 10px;
                 overflow: hidden;
-                // height: 300px;
+                // height: 250px;
                 img{
                     display: block;
                 }
