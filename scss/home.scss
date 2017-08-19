@@ -1,267 +1,264 @@
 @font-face {
-    font-family: 'Proxima Nova';
-    src: url('fonts/ProximaNova-Regular.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    url('fonts/ProximaNova-Regular.otf') format('truetype');
-    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-family: 'Proxima Nova';
+	src: url('fonts/ProximaNova-Regular.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	url('fonts/ProximaNova-Regular.otf') format('truetype');
+	/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+
 @font-face {
-    font-family: 'Avenir Next';
-    src: url('fonts/AvenirNextLTPro-Regular.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-    url('fonts/AvenirNextLTPro-Regular.otf') format('truetype');
-    /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+	font-family: 'Avenir Next';
+	src: url('fonts/AvenirNextLTPro-Regular.otf') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+	url('fonts/AvenirNextLTPro-Regular.otf') format('truetype');
+	/* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
 }
+
 $dark-red: #8B0000;
 $gold: #FFCC33;
 $off-white: #fafafa;
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
-    color: #333;
+body {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	color: #333;
 }
 
-header nav.navbar{
-    margin: 0;
-    .navbar-header{
-        a{
-            font: 1.4em 'Proxima Nova', sans-serif;
-            letter-spacing: 1.5px;
-            color: #333;
-            text-transform: uppercase;
-        }
-    }
-}
-header .collapse{
-    a{
-        text-transform: uppercase;
-        font: 1.1em 'Proxima Nova', sans-serif;
-        color: #333;
-        &:hover{
-            cursor: pointer;
-            color: $dark-red !important;
-        }
-    }
-    li.dropdown{
-            ul.dropdown-menu{
-                opacity: 0.9;
-                z-index: 10;
-                // background-color: transparent;
-                a{
-                    font-size: 1.2em;
-                    text-transform: lowercase;
-                }
-            }
-    }
-    .dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0;
- }
+header nav.navbar {
+	margin: 0;
+	.navbar-header {
+		a {
+			font: 1.4em 'Proxima Nova', sans-serif;
+			letter-spacing: 1.5px;
+			color: #333;
+			text-transform: uppercase;
+		}
+	}
 }
 
-#cover-photo{
-    .hero{
-        background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/home-image-3.jpg");
-        height: 100vh;
-        max-width: 100%;
-        position: relative;
-        background-size: cover;
-        background-position: top;
-        .row{
-            .hero-text{
-                text-align: center;
-                position: absolute;
-                top: 40%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                h1{
-                    color: #FFF;
-                    font: 8.5em 'Proxima Nova', sans-serif;
-                    // text-transform: uppercase;
-                    letter-spacing: 2px;
-                    margin-bottom: 3px;
-                    // font-weight: bold;
-                }
-                p{
-                    color: #FFF;
-                    font: 1.5em 'Proxima Nova', sans-serif;
-                }
-                }
-            }
-        }
-    }
-
-#main-info{
-    width: 100%;
-    .container-fluid{
-        max-width: 90%;
-        .row{
-            .who-description{
-                text-align: center;
-                margin-top: 5%;
-                h2{
-                    font: 3.5em 'Proxima Nova', sans-serif;
-                    display: inline-block;
-                    border-bottom: 4px solid $dark-red;
-                    text-transform: uppercase;
-                }
-                p{
-                    padding-top: 2%;
-                    // margin: 0.5% 5%;
-                    font: 2.3em 'Proxima Nova', sans-serif;
-                }
-            }
-            .purpose{
-                text-align: center;
-                margin-bottom: 5%;
-                p{
-                    margin: 1% 25%;
-                    // line-height: 1.5 !important;
-                    font: 1.2em 'Proxima Nova', sans-serif;   
-                    font-weight: bold;
-                }
-            }
-        }
-        .three-pillars{
-            text-align: center;
-            img{
-                width: 75px;
-            }
-            h3{
-                font: 1.4em 'Proxima Nova', sans-serif;
-                text-transform: uppercase;
-                color: #5a5a5a;
-                font-weight: 100;
-            }
-            p{
-                margin-left: 8%;
-                margin-right: 8%;
-                margin-top: 5%;
-                font: 1em 'Proxima Nova', sans-serif;
-                font-weight: 300;
-                color: #5a5a5a;
-            }
-        }
-    }
-}
-#footer-image{
-    margin-top: 10%;
-    margin-bottom: 7%;
-    position: relative;
-    background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../assets/tabling.jpg");
-        height: 400px;
-        max-width: 100%;
-        position: relative;
-        background-size: cover;
-        background-position: 0 20%;
-        .footer-image-text{
-            text-align: center;
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            p{
-                color: #FFF;
-                font: 4.5em 'Proxima Nova', sans-serif;   
-                text-transform: uppercase;
-                margin-bottom: 60px;
-            }
-            a{
-                color: #FFF;
-                font: 1.5em 'Proxima Nova', sans-serif;   
-                padding: 15px 35px;
-                text-transform: uppercase;
-                text-decoration: none;
-                border: 2px solid #FFF;
-                border-radius: 2px;
-                &:hover{
-                    background-color: $dark-red;
-                    border-color: $dark-red;
-                    cursor: pointer;
-                }
-            }
-        }
-}
-#footer{
-    padding: 3% 0;
-    border-top: 1px solid #e5e5e5;
-    .container-fluid{
-        .copyright-social{
-            text-align: center;
-            p{
-                font: 0.95em 'Proxima Nova', sans-serif;
-                margin: 0;
-                color: #5a5a5a;
-                margin-bottom: 5px;
-            }
-            p#copyright{
-                font: 1em 'Proxima Nova', sans-serif;
-
-            }
-            p#contact{
-                font: 1em 'Proxima Nova', sans-serif;
-
-            }
-            img{
-                margin-top: 20px;
-                margin-bottom: 20px;
-                width: 35px;
-            }
-        }
-    }
+header .collapse {
+	a {
+		text-transform: uppercase;
+		font: 1.1em 'Proxima Nova', sans-serif;
+		color: #333;
+		&:hover {
+			cursor: pointer;
+			color: $dark-red !important;
+		}
+	}
+	li.dropdown {
+		ul.dropdown-menu {
+			opacity: 0.9;
+			z-index: 10; // background-color: transparent;
+			a {
+				font-size: 1.2em;
+				text-transform: lowercase;
+			}
+		}
+	}
+	.dropdown:hover .dropdown-menu {
+		display: block;
+		margin-top: 0;
+	}
 }
 
-@media (max-width: 500px){
-    header{
-        nav{
-            .navbar-header{
-                a{
-                    font-size: 1em !important;
-                }
-            }
-        }
-    }
-    #cover-photo{
-        .hero{
-            .row{
-                .hero-text{
-                    h1{
-                        font-size: 6.3rem;
-                    }
-                    p{
-                        font-size: 1.1em;
-                    }
-                }
-            }
-        }
-    }
-    #main-info{
-        .container-fluid{
-            .purpose{
-                p{
-                    margin: 1% 0 0 0 !important;
-                }
-            }
-            .who-description{
-                h2{
-                    font-size: 3em !important;
-                }
-                p{
-                    font-size: 2em !important;
-                }
-            }
-            .three-pillars{
-                .pillars{
-                    margin-top: 10%;
-                    margin-bottom: 5%;
-                }
-                p{
-                    margin-left: 0;
-                    margin-right: 0;
-                }
-            }
-        }
-    }
+#cover-photo {
+	.hero {
+		background: linear-gradient(rgba(255, 255, 255, 0.25), rgba(0, 0, 0, 0.55)), url("../assets/home-image-3.jpg");
+		height: 100vh;
+		max-width: 100%;
+		position: relative;
+		background-size: cover;
+		background-position: top;
+		.row {
+			.hero-text {
+				text-align: center;
+				position: absolute;
+				top: 40%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+				h1 {
+					color: #FFF;
+					font: 8.5em 'Proxima Nova', sans-serif; // text-transform: uppercase;
+					letter-spacing: 2px;
+					margin-bottom: 3px; // font-weight: bold;
+				}
+				p {
+					color: #FFF;
+					font: 1.5em 'Proxima Nova', sans-serif;
+				}
+			}
+		}
+	}
+}
+
+#main-info {
+	width: 100%;
+	.container-fluid {
+		max-width: 90%;
+		.row {
+			.who-description {
+				text-align: center;
+				margin-top: 5%;
+				h2 {
+					font: 3.5em 'Proxima Nova', sans-serif;
+					display: inline-block;
+					border-bottom: 4px solid $dark-red;
+					text-transform: uppercase;
+				}
+				p {
+					padding-top: 2%; // margin: 0.5% 5%;
+					font: 2.3em 'Proxima Nova', sans-serif;
+				}
+			}
+			.purpose {
+				text-align: center;
+				margin-bottom: 5%;
+				p {
+					margin: 1% 25%; // line-height: 1.5 !important;
+					font: 1.2em 'Proxima Nova', sans-serif;
+					font-weight: bold;
+				}
+			}
+		}
+		.three-pillars {
+			text-align: center;
+			img {
+				width: 75px;
+			}
+			h3 {
+				font: 1.4em 'Proxima Nova', sans-serif;
+				text-transform: uppercase;
+				color: #5a5a5a;
+				font-weight: 100;
+			}
+			p {
+				margin-left: 8%;
+				margin-right: 8%;
+				margin-top: 5%;
+				font: 1em 'Proxima Nova', sans-serif;
+				font-weight: 300;
+				color: #5a5a5a;
+			}
+		}
+	}
+}
+
+#footer-image {
+	margin-top: 10%;
+	margin-bottom: 7%;
+	position: relative;
+	background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.55)), url("../assets/tabling.jpg");
+	height: 400px;
+	max-width: 100%;
+	position: relative;
+	background-size: cover;
+	background-position: 0 20%;
+	.footer-image-text {
+		text-align: center;
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		p {
+			color: #FFF;
+			font: 4.5em 'Proxima Nova', sans-serif;
+			text-transform: uppercase;
+			margin-bottom: 60px;
+		}
+		a {
+			color: #FFF;
+			font: 1.5em 'Proxima Nova', sans-serif;
+			padding: 15px 35px;
+			text-transform: uppercase;
+			text-decoration: none;
+			border: 2px solid #FFF;
+			border-radius: 2px;
+			&:hover {
+				background-color: $dark-red;
+				border-color: $dark-red;
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+#footer {
+	padding: 3% 0;
+	border-top: 1px solid #e5e5e5;
+	.container-fluid {
+		.copyright-social {
+			text-align: center;
+			p {
+				font: 0.95em 'Proxima Nova', sans-serif;
+				margin: 0;
+				color: #5a5a5a;
+				margin-bottom: 5px;
+			}
+			p#copyright {
+				font: 1em 'Proxima Nova', sans-serif;
+			}
+			p#contact {
+				font: 1em 'Proxima Nova', sans-serif;
+			}
+			img {
+				margin-top: 20px;
+				margin-bottom: 20px;
+				width: 35px;
+			}
+		}
+	}
+}
+
+@media (max-width: 500px) {
+	header {
+		nav {
+			.navbar-header {
+				a {
+					font-size: 1em !important;
+				}
+			}
+		}
+	}
+	#cover-photo {
+		.hero {
+			.row {
+				.hero-text {
+					h1 {
+						font-size: 6.3rem;
+					}
+					p {
+						font-size: 1.1em;
+					}
+				}
+			}
+		}
+	}
+	#main-info {
+		.container-fluid {
+			.purpose {
+				p {
+					margin: 1% 0 0 0 !important;
+				}
+			}
+			.who-description {
+				h2 {
+					font-size: 3em !important;
+				}
+				p {
+					font-size: 2em !important;
+				}
+			}
+			.three-pillars {
+				.pillars {
+					margin-top: 10%;
+					margin-bottom: 5%;
+				}
+				p {
+					margin-left: 0;
+					margin-right: 0;
+				}
+			}
+		}
+	}
 }
