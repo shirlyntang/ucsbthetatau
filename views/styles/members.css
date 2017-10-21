@@ -39,7 +39,7 @@ header .collapse li.dropdown ul.dropdown-menu {
   z-index: 10; }
   header .collapse li.dropdown ul.dropdown-menu a {
     font-size: 1.2em;
-    text-transform: lowercase; }
+    text-transform: uppercase; }
 
 header .collapse .dropdown:hover .dropdown-menu {
   display: block;
