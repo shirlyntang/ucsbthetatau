@@ -92,7 +92,7 @@ header .collapse .dropdown:hover .dropdown-menu {
     overflow: hidden; }
     #main-info .container-fluid .row .member-image img {
       display: block;
-    height: 320px;
+    height: 280px;
   width:500px;
  }
     #main-info .container-fluid .row .member-image:hover .member-caption {
