@@ -91,7 +91,10 @@ header .collapse .dropdown:hover .dropdown-menu {
     padding: 5px;
     overflow: hidden; }
     #main-info .container-fluid .row .member-image img {
-      display: block; }
+      display: block;
+    height: 320px;
+  width:500px;
+ }
     #main-info .container-fluid .row .member-image:hover .member-caption {
       height: 40%; }
     #main-info .container-fluid .row .member-image .member-caption {

@@ -86,28 +86,58 @@ header .collapse .dropdown:hover .dropdown-menu {
     #main-info .container-fluid .active h2 {
       font: 3.5em 'Proxima Nova', sans-serif;
       color: #8B0000; }
-  #main-info .container-fluid .row .member-image {
+  #main-info .container-fluid .row .execmember-image {
     position: relative;
     padding: 5px;
+    padding-left: 70px;
     overflow: hidden; }
+    #main-info .container-fluid .row .member-image{
+      position: relative;
+      padding: 5px;
+      overflow: hidden; }
+    #main-info .container-fluid .row .execmember-image img {
+      display: block; 
+      height: 320px;
+      width: 500px;
+      
+    }
     #main-info .container-fluid .row .member-image img {
-      display: block; }
-    #main-info .container-fluid .row .member-image:hover .member-caption {
+      display: block; 
+      height: 280px;
+      width: 500px;
+   
+    }
+    #main-info .container-fluid .row .execmember-image:hover .execmember-caption  {
       height: 35%; }
-    #main-info .container-fluid .row .member-image .member-caption {
+      #main-info .container-fluid .row .member-image:hover .member-caption  {
+        height: 35%; }
+    #main-info .container-fluid .row .execmember-image .execmember-caption {
       position: absolute;
       bottom: 5px;
-      left: 5px;
+      left: 70px;
       right: 0;
       background-color: #000;
       overflow: hidden;
-      width: calc(100% - 10px);
+      width: 500px;
       height: 0;
       -webkit-transition: .5s ease;
       -o-transition: .5s ease;
       transition: .5s ease;
       opacity: 0.85; }
-      #main-info .container-fluid .row .member-image .member-caption .text {
+      #main-info .container-fluid .row .member-image .member-caption {
+        position: absolute;
+        bottom: 5px;
+        left: 5px;
+        right: 0;
+        background-color: #000;
+        overflow: hidden;
+        width: calc(100% - 10px);
+        height: 0;
+        -webkit-transition: .5s ease;
+        -o-transition: .5s ease;
+        transition: .5s ease;
+        opacity: 0.85; }
+      #main-info .container-fluid .row .execmember-image .execmember-caption .text {
         white-space: nowrap;
         color: #FFF;
         font-size: 20px;
@@ -118,9 +148,25 @@ header .collapse .dropdown:hover .dropdown-menu {
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         -ms-transform: translate(-50%, -50%); }
-        #main-info .container-fluid .row .member-image .member-caption .text p {
+        #main-info .container-fluid .row .member-image .member-caption .text {
+          white-space: nowrap;
+          color: #FFF;
+          font-size: 20px;
+          position: absolute;
+          overflow: hidden;
+          top: 50%;
+          left: 50%;
+          -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%); }
+        #main-info .container-fluid .row .execmember-image .execmember-caption .text p {
           font: 0.9em 'Proxima Nova', sans-serif;
           margin: 0; }
+          #main-info .container-fluid .row  .member-image .member-caption .text p {
+            font: 0.9em 'Proxima Nova', sans-serif;
+            margin: 0; }
+         
+          
 
 #footer {
   padding: 3% 0;
