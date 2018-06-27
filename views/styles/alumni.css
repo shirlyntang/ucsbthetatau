@@ -93,7 +93,7 @@ header .collapse .dropdown:hover .dropdown-menu {
     #main-info .container-fluid .row .member-image img {
       display: block;
     height: 320px;
-  width:500px;
+  width:520px;
  }
     #main-info .container-fluid .row .member-image:hover .member-caption {
       height: 40%; }
@@ -104,7 +104,7 @@ header .collapse .dropdown:hover .dropdown-menu {
       right: 0;
       background-color: #000;
       overflow: hidden;
-      width: 500px;
+      width: 520px;
       height: 0;
       -webkit-transition: .5s ease;
       -o-transition: .5s ease;

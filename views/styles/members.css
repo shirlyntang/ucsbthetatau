@@ -131,7 +131,7 @@ header .collapse .dropdown:hover .dropdown-menu {
         right: 0;
         background-color: #000;
         overflow: hidden;
-        width: 500px;
+        width: 520px;
         height: 0;
         -webkit-transition: .5s ease;
         -o-transition: .5s ease;
