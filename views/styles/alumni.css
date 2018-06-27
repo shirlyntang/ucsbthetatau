@@ -92,7 +92,7 @@ header .collapse .dropdown:hover .dropdown-menu {
     overflow: hidden; }
     #main-info .container-fluid .row .member-image img {
       display: block;
-    height: 280px;
+    height: 320px;
   width:500px;
  }
     #main-info .container-fluid .row .member-image:hover .member-caption {
@@ -104,7 +104,7 @@ header .collapse .dropdown:hover .dropdown-menu {
       right: 0;
       background-color: #000;
       overflow: hidden;
-      width: calc(100% - 10px);
+      width: 500px;
       height: 0;
       -webkit-transition: .5s ease;
       -o-transition: .5s ease;
